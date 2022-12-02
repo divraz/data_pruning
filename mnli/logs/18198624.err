@@ -1,0 +1,31 @@
+Reusing dataset glue (/home/draj5/.cache/huggingface/datasets/glue/mnli/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad)
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:00<00:00,  4.61it/s]100%|██████████| 5/5 [00:00<00:00, 19.87it/s]
+Loading cached processed dataset at /home/draj5/.cache/huggingface/datasets/glue/mnli/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad/cache-205eb00ef45855d3.arrow
+Loading cached processed dataset at /home/draj5/.cache/huggingface/datasets/glue/mnli/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad/cache-2a04a5c7ae238a3a.arrow
+Loading cached processed dataset at /home/draj5/.cache/huggingface/datasets/glue/mnli/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad/cache-95a1732ede95484d.arrow
+Loading cached processed dataset at /home/draj5/.cache/huggingface/datasets/glue/mnli/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad/cache-fc4e130d0534a843.arrow
+Loading cached processed dataset at /home/draj5/.cache/huggingface/datasets/glue/mnli/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad/cache-0ad08530763d3bc5.arrow
+Traceback (most recent call last):
+  File "/home/draj5/projects/data_pruning/experiments/mnli/re_train.py", line 219, in <module>
+    dataset = load_and_filter_dataset (d_name)
+  File "/home/draj5/projects/data_pruning/experiments/mnli/re_train.py", line 31, in load_and_filter_dataset
+    file_name = sys.argv[1]
+NameError: name 'sys' is not defined
+Fatal error condition occurred in /opt/vcpkg/buildtrees/aws-c-io/src/9e6648842a-364b708815.clean/source/event_loop.c:72: aws_thread_launch(&cleanup_thread, s_event_loop_destroy_async_thread_fn, el_group, &thread_options) == AWS_OP_SUCCESS
+Exiting Application
+################################################################################
+Stack trace:
+################################################################################
+/home/draj5/anaconda3/envs/temp1/lib/python3.9/site-packages/pyarrow/libarrow.so.900(+0x200af06) [0x2b0e10d47f06]
+/home/draj5/anaconda3/envs/temp1/lib/python3.9/site-packages/pyarrow/libarrow.so.900(+0x20028e5) [0x2b0e10d3f8e5]
+/home/draj5/anaconda3/envs/temp1/lib/python3.9/site-packages/pyarrow/libarrow.so.900(+0x1f27e09) [0x2b0e10c64e09]
+/home/draj5/anaconda3/envs/temp1/lib/python3.9/site-packages/pyarrow/libarrow.so.900(+0x200ba3d) [0x2b0e10d48a3d]
+/home/draj5/anaconda3/envs/temp1/lib/python3.9/site-packages/pyarrow/libarrow.so.900(+0x1f25948) [0x2b0e10c62948]
+/home/draj5/anaconda3/envs/temp1/lib/python3.9/site-packages/pyarrow/libarrow.so.900(+0x200ba3d) [0x2b0e10d48a3d]
+/home/draj5/anaconda3/envs/temp1/lib/python3.9/site-packages/pyarrow/libarrow.so.900(+0x1ee0b46) [0x2b0e10c1db46]
+/home/draj5/anaconda3/envs/temp1/lib/python3.9/site-packages/pyarrow/libarrow.so.900(+0x194546a) [0x2b0e1068246a]
+/lib64/libc.so.6(+0x39ce9) [0x2b0da9795ce9]
+/lib64/libc.so.6(+0x39d37) [0x2b0da9795d37]
+/lib64/libc.so.6(__libc_start_main+0xfc) [0x2b0da977e55c]
+python(+0x203667) [0x56536bcae667]
+/var/spool/slurmd/job18198624/slurm_script: line 23: 121219 Aborted                 python $1 $2

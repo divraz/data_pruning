@@ -1,0 +1,58 @@
+pruned_3_0.005_model_0
+DatasetDict({
+    train: Dataset({
+        features: ['question', 'sentence', 'label', 'indexes'],
+        num_rows: 523
+    })
+    validation: Dataset({
+        features: ['question', 'sentence', 'label', 'indexes'],
+        num_rows: 5463
+    })
+    test: Dataset({
+        features: ['question', 'sentence', 'label', 'indexes'],
+        num_rows: 5463
+    })
+})
+[Train] Epoch:   0, Total:    523, Accuracy : 0.5086, Loss: 0.7249
+[Eval] Epoch:   0, Total:   5463, Accuracy : 0.4946, Loss: 0.6866
+[Train] Epoch:   1, Total:    523, Accuracy : 0.4990, Loss: 0.7230
+[Eval] Epoch:   1, Total:   5463, Accuracy : 0.4946, Loss: 0.6903
+[Train] Epoch:   2, Total:    523, Accuracy : 0.4876, Loss: 0.6887
+[Eval] Epoch:   2, Total:   5463, Accuracy : 0.4941, Loss: 0.6916
+[Train] Epoch:   3, Total:    523, Accuracy : 0.5143, Loss: 0.6919
+[Eval] Epoch:   3, Total:   5463, Accuracy : 0.5232, Loss: 0.6930
+[Train] Epoch:   4, Total:    523, Accuracy : 0.5755, Loss: 0.6751
+[Eval] Epoch:   4, Total:   5463, Accuracy : 0.5825, Loss: 0.6919
+[Train] Epoch:   5, Total:    523, Accuracy : 0.5966, Loss: 0.6856
+[Eval] Epoch:   5, Total:   5463, Accuracy : 0.7038, Loss: 0.6783
+[Train] Epoch:   6, Total:    523, Accuracy : 0.7361, Loss: 0.4699
+[Eval] Epoch:   6, Total:   5463, Accuracy : 0.7840, Loss: 0.5476
+[Train] Epoch:   7, Total:    523, Accuracy : 0.7859, Loss: 0.7909
+[Eval] Epoch:   7, Total:   5463, Accuracy : 0.7997, Loss: 0.4592
+[Train] Epoch:   8, Total:    523, Accuracy : 0.8566, Loss: 0.3486
+[Eval] Epoch:   8, Total:   5463, Accuracy : 0.8049, Loss: 0.5015
+[Train] Epoch:   9, Total:    523, Accuracy : 0.8929, Loss: 0.1009
+[Eval] Epoch:   9, Total:   5463, Accuracy : 0.8071, Loss: 0.3328
+[Train] Epoch:  10, Total:    523, Accuracy : 0.9197, Loss: 0.1030
+[Eval] Epoch:  10, Total:   5463, Accuracy : 0.8127, Loss: 0.3880
+[Train] Epoch:  11, Total:    523, Accuracy : 0.9101, Loss: 0.2119
+[Eval] Epoch:  11, Total:   5463, Accuracy : 0.8131, Loss: 0.4080
+[Train] Epoch:  12, Total:    523, Accuracy : 0.9216, Loss: 0.3584
+[Eval] Epoch:  12, Total:   5463, Accuracy : 0.7717, Loss: 0.8691
+[Train] Epoch:  13, Total:    523, Accuracy : 0.8528, Loss: 0.2656
+[Eval] Epoch:  13, Total:   5463, Accuracy : 0.6663, Loss: 0.5718
+[Train] Epoch:  14, Total:    523, Accuracy : 0.8432, Loss: 0.1078
+[Eval] Epoch:  14, Total:   5463, Accuracy : 0.7833, Loss: 0.7616
+[Train] Epoch:  15, Total:    523, Accuracy : 0.9446, Loss: 0.0598
+[Eval] Epoch:  15, Total:   5463, Accuracy : 0.8094, Loss: 0.7631
+[Train] Epoch:  16, Total:    523, Accuracy : 0.9751, Loss: 0.0262
+[Eval] Epoch:  16, Total:   5463, Accuracy : 0.8186, Loss: 0.5484
+[Train] Epoch:  17, Total:    523, Accuracy : 0.9771, Loss: 0.0283
+[Eval] Epoch:  17, Total:   5463, Accuracy : 0.8063, Loss: 0.9031
+[Train] Epoch:  18, Total:    523, Accuracy : 0.9828, Loss: 0.0302
+[Eval] Epoch:  18, Total:   5463, Accuracy : 0.8208, Loss: 0.7018
+[Train] Epoch:  19, Total:    523, Accuracy : 0.9847, Loss: 0.0161
+[Eval] Epoch:  19, Total:   5463, Accuracy : 0.8204, Loss: 0.7129
+{"epoch":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],"train_loss":[0.700909329785241,0.6992674999766879,0.6940963400734795,0.6927654080920749,0.6873071392377218,0.6858521236313714,0.6289622618092431,0.522888160414166,0.36597663164138794,0.29084767235649955,0.2449311820997132,0.2465599344836341,0.246210010515319,0.3368114431699117,0.3470589361257023,0.1646232766409715,0.09706194202105205,0.078890065352122,0.06179203403492769,0.05402578703231282],"eval_loss":[0.6965660889481389,0.6936833816905354,0.6930692902831144,0.6923881491949392,0.6911273002624512,0.6794706520646118,0.547342442842417,0.4554382067087085,0.4689793371877005,0.4692724430283835,0.4819614320646885,0.48327434704054234,0.6210797255815461,0.8130974859692329,0.5834059133086094,0.5994698377542718,0.5920355876171312,0.689950957201248,0.6556063361985739,0.6617806718446487],"train_acc":[0.5086042065009561,0.49904397705544934,0.4875717017208413,0.51434034416826,0.5755258126195029,0.5965583173996176,0.7361376673040153,0.7858508604206501,0.8565965583173997,0.892925430210325,0.9196940726577438,0.9101338432122371,0.9216061185468452,0.8527724665391969,0.8432122370936902,0.9445506692160612,0.9751434034416826,0.9770554493307839,0.982791586998088,0.9847036328871893],"eval_acc":[0.4946000366099213,0.4946000366099213,0.49405088779059125,0.5231557752150833,0.5824638477027274,0.703825736774666,0.7840014643968516,0.7997437305509794,0.8048691195313931,0.8070657148087131,0.8127402526084568,0.8131063518213436,0.7717371407651473,0.66630056745378,0.7832692659710782,0.8094453596924767,0.818597840014644,0.8063335163829398,0.8207944352919642,0.8204283360790774]}
+[Eval] Epoch:  11, Total:   5463, Accuracy : 0.8204, Loss: 0.7129
+5463 4482 56.91313777863979

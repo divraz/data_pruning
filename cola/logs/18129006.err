@@ -1,0 +1,570 @@
+Reusing dataset glue (/home/draj5/.cache/huggingface/datasets/glue/cola/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad)
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 524.73it/s]
+  0%|          | 0/9 [00:00<?, ?ba/s] 44%|████▍     | 4/9 [00:00<00:00, 32.17ba/s]100%|██████████| 9/9 [00:00<00:00, 40.08ba/s]100%|██████████| 9/9 [00:00<00:00, 38.78ba/s]
+Flattening the indices:   0%|          | 0/2 [00:00<?, ?ba/s]Flattening the indices: 100%|██████████| 2/2 [00:00<00:00, 102.69ba/s]
+  0%|          | 0/2 [00:00<?, ?ba/s] 50%|█████     | 1/2 [00:00<00:00,  6.43ba/s]100%|██████████| 2/2 [00:00<00:00,  8.65ba/s]
+Loading cached processed dataset at /home/draj5/.cache/huggingface/datasets/glue/cola/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad/cache-568420ebc700f35f.arrow
+Loading cached processed dataset at /home/draj5/.cache/huggingface/datasets/glue/cola/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad/cache-2e9d16c0f160c89a.arrow
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaModel: ['lm_head.layer_norm.bias', 'lm_head.dense.bias', 'lm_head.decoder.weight', 'lm_head.bias', 'lm_head.layer_norm.weight', 'lm_head.dense.weight']
+- This IS expected if you are initializing RobertaModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+  0%|          | 0/20 [00:00<?, ?it/s]
+  0%|          | 0/7 [00:00<?, ?it/s][A
+[Train] Epoch:   0, Total:    256, Accuracy : 0.5977, Loss: 0.6867:   0%|          | 0/7 [00:01<?, ?it/s][A
+[Train] Epoch:   0, Total:    256, Accuracy : 0.5977, Loss: 0.6867:  14%|█▍        | 1/7 [00:01<00:06,  1.17s/it][A
+[Train] Epoch:   0, Total:    512, Accuracy : 0.6035, Loss: 0.6876:  14%|█▍        | 1/7 [00:02<00:06,  1.17s/it][A
+[Train] Epoch:   0, Total:    512, Accuracy : 0.6035, Loss: 0.6876:  29%|██▊       | 2/7 [00:02<00:04,  1.01it/s][A
+[Train] Epoch:   0, Total:    768, Accuracy : 0.6198, Loss: 0.6850:  29%|██▊       | 2/7 [00:02<00:04,  1.01it/s][A
+[Train] Epoch:   0, Total:    768, Accuracy : 0.6198, Loss: 0.6850:  43%|████▎     | 3/7 [00:02<00:03,  1.06it/s][A
+[Train] Epoch:   0, Total:   1024, Accuracy : 0.6162, Loss: 0.6859:  43%|████▎     | 3/7 [00:03<00:03,  1.06it/s][A
+[Train] Epoch:   0, Total:   1024, Accuracy : 0.6162, Loss: 0.6859:  57%|█████▋    | 4/7 [00:03<00:02,  1.10it/s][A
+[Train] Epoch:   0, Total:   1280, Accuracy : 0.6211, Loss: 0.6816:  57%|█████▋    | 4/7 [00:04<00:02,  1.10it/s][A
+[Train] Epoch:   0, Total:   1280, Accuracy : 0.6211, Loss: 0.6816:  71%|███████▏  | 5/7 [00:04<00:01,  1.11it/s][A
+[Train] Epoch:   0, Total:   1536, Accuracy : 0.6302, Loss: 0.6792:  71%|███████▏  | 5/7 [00:05<00:01,  1.11it/s][A
+[Train] Epoch:   0, Total:   1536, Accuracy : 0.6302, Loss: 0.6792:  86%|████████▌ | 6/7 [00:05<00:00,  1.12it/s][A
+[Train] Epoch:   0, Total:   1710, Accuracy : 0.6339, Loss: 0.6800:  86%|████████▌ | 6/7 [00:06<00:00,  1.12it/s][A
+[Train] Epoch:   0, Total:   1710, Accuracy : 0.6339, Loss: 0.6800: 100%|██████████| 7/7 [00:06<00:00,  1.23it/s][A[Train] Epoch:   0, Total:   1710, Accuracy : 0.6339, Loss: 0.6800: 100%|██████████| 7/7 [00:06<00:00,  1.13it/s]
+
+  0%|          | 0/5 [00:00<?, ?it/s][A
+[Eval] Epoch:   0, Total:    256, Accuracy : 0.6562, Loss: 0.6798:   0%|          | 0/5 [00:00<?, ?it/s][A
+[Eval] Epoch:   0, Total:    256, Accuracy : 0.6562, Loss: 0.6798:  20%|██        | 1/5 [00:00<00:01,  3.04it/s][A
+[Eval] Epoch:   0, Total:    512, Accuracy : 0.6934, Loss: 0.6733:  20%|██        | 1/5 [00:00<00:01,  3.04it/s][A
+[Eval] Epoch:   0, Total:    512, Accuracy : 0.6934, Loss: 0.6733:  40%|████      | 2/5 [00:00<00:00,  3.21it/s][A
+[Eval] Epoch:   0, Total:    768, Accuracy : 0.6810, Loss: 0.6799:  40%|████      | 2/5 [00:00<00:00,  3.21it/s][A
+[Eval] Epoch:   0, Total:    768, Accuracy : 0.6810, Loss: 0.6799:  60%|██████    | 3/5 [00:00<00:00,  3.26it/s][A
+[Eval] Epoch:   0, Total:   1024, Accuracy : 0.6885, Loss: 0.6749:  60%|██████    | 3/5 [00:01<00:00,  3.26it/s][A
+[Eval] Epoch:   0, Total:   1024, Accuracy : 0.6885, Loss: 0.6749:  80%|████████  | 4/5 [00:01<00:00,  3.29it/s][A
+[Eval] Epoch:   0, Total:   1043, Accuracy : 0.6913, Loss: 0.6617:  80%|████████  | 4/5 [00:01<00:00,  3.29it/s][A[Eval] Epoch:   0, Total:   1043, Accuracy : 0.6913, Loss: 0.6617: 100%|██████████| 5/5 [00:01<00:00,  3.98it/s]
+  5%|▌         | 1/20 [00:09<03:04,  9.72s/it]
+  0%|          | 0/7 [00:00<?, ?it/s][A
+[Train] Epoch:   1, Total:    256, Accuracy : 0.6914, Loss: 0.6793:   0%|          | 0/7 [00:00<?, ?it/s][A
+[Train] Epoch:   1, Total:    256, Accuracy : 0.6914, Loss: 0.6793:  14%|█▍        | 1/7 [00:00<00:05,  1.12it/s][A
+[Train] Epoch:   1, Total:    512, Accuracy : 0.6738, Loss: 0.6792:  14%|█▍        | 1/7 [00:01<00:05,  1.12it/s][A
+[Train] Epoch:   1, Total:    512, Accuracy : 0.6738, Loss: 0.6792:  29%|██▊       | 2/7 [00:01<00:04,  1.14it/s][A
+[Train] Epoch:   1, Total:    768, Accuracy : 0.6628, Loss: 0.6759:  29%|██▊       | 2/7 [00:02<00:04,  1.14it/s][A
+[Train] Epoch:   1, Total:    768, Accuracy : 0.6628, Loss: 0.6759:  43%|████▎     | 3/7 [00:02<00:03,  1.14it/s][A
+[Train] Epoch:   1, Total:   1024, Accuracy : 0.6709, Loss: 0.6701:  43%|████▎     | 3/7 [00:03<00:03,  1.14it/s][A
+[Train] Epoch:   1, Total:   1024, Accuracy : 0.6709, Loss: 0.6701:  57%|█████▋    | 4/7 [00:03<00:02,  1.14it/s][A
+[Train] Epoch:   1, Total:   1280, Accuracy : 0.6766, Loss: 0.6616:  57%|█████▋    | 4/7 [00:04<00:02,  1.14it/s][A
+[Train] Epoch:   1, Total:   1280, Accuracy : 0.6766, Loss: 0.6616:  71%|███████▏  | 5/7 [00:04<00:01,  1.15it/s][A
+[Train] Epoch:   1, Total:   1536, Accuracy : 0.6790, Loss: 0.6609:  71%|███████▏  | 5/7 [00:05<00:01,  1.15it/s][A
+[Train] Epoch:   1, Total:   1536, Accuracy : 0.6790, Loss: 0.6609:  86%|████████▌ | 6/7 [00:05<00:00,  1.15it/s][A
+[Train] Epoch:   1, Total:   1710, Accuracy : 0.6696, Loss: 0.6813:  86%|████████▌ | 6/7 [00:05<00:00,  1.15it/s][A
+[Train] Epoch:   1, Total:   1710, Accuracy : 0.6696, Loss: 0.6813: 100%|██████████| 7/7 [00:05<00:00,  1.26it/s][A[Train] Epoch:   1, Total:   1710, Accuracy : 0.6696, Loss: 0.6813: 100%|██████████| 7/7 [00:05<00:00,  1.19it/s]
+
+  0%|          | 0/5 [00:00<?, ?it/s][A
+[Eval] Epoch:   1, Total:    256, Accuracy : 0.6562, Loss: 0.6624:   0%|          | 0/5 [00:00<?, ?it/s][A
+[Eval] Epoch:   1, Total:    256, Accuracy : 0.6562, Loss: 0.6624:  20%|██        | 1/5 [00:00<00:01,  3.02it/s][A
+[Eval] Epoch:   1, Total:    512, Accuracy : 0.6934, Loss: 0.6456:  20%|██        | 1/5 [00:00<00:01,  3.02it/s][A
+[Eval] Epoch:   1, Total:    512, Accuracy : 0.6934, Loss: 0.6456:  40%|████      | 2/5 [00:00<00:00,  3.19it/s][A
+[Eval] Epoch:   1, Total:    768, Accuracy : 0.6810, Loss: 0.6627:  40%|████      | 2/5 [00:00<00:00,  3.19it/s][A
+[Eval] Epoch:   1, Total:    768, Accuracy : 0.6810, Loss: 0.6627:  60%|██████    | 3/5 [00:00<00:00,  3.23it/s][A
+[Eval] Epoch:   1, Total:   1024, Accuracy : 0.6885, Loss: 0.6499:  60%|██████    | 3/5 [00:01<00:00,  3.23it/s][A
+[Eval] Epoch:   1, Total:   1024, Accuracy : 0.6885, Loss: 0.6499:  80%|████████  | 4/5 [00:01<00:00,  3.26it/s][A
+[Eval] Epoch:   1, Total:   1043, Accuracy : 0.6913, Loss: 0.6170:  80%|████████  | 4/5 [00:01<00:00,  3.26it/s][A[Eval] Epoch:   1, Total:   1043, Accuracy : 0.6913, Loss: 0.6170: 100%|██████████| 5/5 [00:01<00:00,  3.95it/s]
+ 10%|█         | 2/20 [00:16<02:27,  8.21s/it]
+  0%|          | 0/7 [00:00<?, ?it/s][A
+[Train] Epoch:   2, Total:    256, Accuracy : 0.6953, Loss: 0.6507:   0%|          | 0/7 [00:00<?, ?it/s][A
+[Train] Epoch:   2, Total:    256, Accuracy : 0.6953, Loss: 0.6507:  14%|█▍        | 1/7 [00:00<00:05,  1.18it/s][A
+[Train] Epoch:   2, Total:    512, Accuracy : 0.6875, Loss: 0.6538:  14%|█▍        | 1/7 [00:01<00:05,  1.18it/s][A
+[Train] Epoch:   2, Total:    512, Accuracy : 0.6875, Loss: 0.6538:  29%|██▊       | 2/7 [00:01<00:04,  1.15it/s][A
+[Train] Epoch:   2, Total:    768, Accuracy : 0.6836, Loss: 0.6476:  29%|██▊       | 2/7 [00:02<00:04,  1.15it/s][A
+[Train] Epoch:   2, Total:    768, Accuracy : 0.6836, Loss: 0.6476:  43%|████▎     | 3/7 [00:02<00:03,  1.14it/s][A
+[Train] Epoch:   2, Total:   1024, Accuracy : 0.6816, Loss: 0.6399:  43%|████▎     | 3/7 [00:03<00:03,  1.14it/s][A
+[Train] Epoch:   2, Total:   1024, Accuracy : 0.6816, Loss: 0.6399:  57%|█████▋    | 4/7 [00:03<00:02,  1.14it/s][A
+[Train] Epoch:   2, Total:   1280, Accuracy : 0.6727, Loss: 0.6596:  57%|█████▋    | 4/7 [00:04<00:02,  1.14it/s][A
+[Train] Epoch:   2, Total:   1280, Accuracy : 0.6727, Loss: 0.6596:  71%|███████▏  | 5/7 [00:04<00:01,  1.14it/s][A
+[Train] Epoch:   2, Total:   1536, Accuracy : 0.6738, Loss: 0.6399:  71%|███████▏  | 5/7 [00:05<00:01,  1.14it/s][A
+[Train] Epoch:   2, Total:   1536, Accuracy : 0.6738, Loss: 0.6399:  86%|████████▌ | 6/7 [00:05<00:00,  1.14it/s][A
+[Train] Epoch:   2, Total:   1710, Accuracy : 0.6696, Loss: 0.6719:  86%|████████▌ | 6/7 [00:05<00:00,  1.14it/s][A
+[Train] Epoch:   2, Total:   1710, Accuracy : 0.6696, Loss: 0.6719: 100%|██████████| 7/7 [00:05<00:00,  1.25it/s][A[Train] Epoch:   2, Total:   1710, Accuracy : 0.6696, Loss: 0.6719: 100%|██████████| 7/7 [00:05<00:00,  1.19it/s]
+
+  0%|          | 0/5 [00:00<?, ?it/s][A
+[Eval] Epoch:   2, Total:    256, Accuracy : 0.6562, Loss: 0.6443:   0%|          | 0/5 [00:00<?, ?it/s][A
+[Eval] Epoch:   2, Total:    256, Accuracy : 0.6562, Loss: 0.6443:  20%|██        | 1/5 [00:00<00:01,  3.01it/s][A
+[Eval] Epoch:   2, Total:    512, Accuracy : 0.6934, Loss: 0.6102:  20%|██        | 1/5 [00:00<00:01,  3.01it/s][A
+[Eval] Epoch:   2, Total:    512, Accuracy : 0.6934, Loss: 0.6102:  40%|████      | 2/5 [00:00<00:00,  3.18it/s][A
+[Eval] Epoch:   2, Total:    768, Accuracy : 0.6810, Loss: 0.6451:  40%|████      | 2/5 [00:00<00:00,  3.18it/s][A
+[Eval] Epoch:   2, Total:    768, Accuracy : 0.6810, Loss: 0.6451:  60%|██████    | 3/5 [00:00<00:00,  3.23it/s][A
+[Eval] Epoch:   2, Total:   1024, Accuracy : 0.6885, Loss: 0.6185:  60%|██████    | 3/5 [00:01<00:00,  3.23it/s][A
+[Eval] Epoch:   2, Total:   1024, Accuracy : 0.6885, Loss: 0.6185:  80%|████████  | 4/5 [00:01<00:00,  3.26it/s][A
+[Eval] Epoch:   2, Total:   1043, Accuracy : 0.6913, Loss: 0.5550:  80%|████████  | 4/5 [00:01<00:00,  3.26it/s][A[Eval] Epoch:   2, Total:   1043, Accuracy : 0.6913, Loss: 0.5550: 100%|██████████| 5/5 [00:01<00:00,  3.95it/s]
+ 15%|█▌        | 3/20 [00:24<02:11,  7.73s/it]
+  0%|          | 0/7 [00:00<?, ?it/s][A
+[Train] Epoch:   3, Total:    256, Accuracy : 0.6758, Loss: 0.6346:   0%|          | 0/7 [00:00<?, ?it/s][A
+[Train] Epoch:   3, Total:    256, Accuracy : 0.6758, Loss: 0.6346:  14%|█▍        | 1/7 [00:00<00:05,  1.20it/s][A
+[Train] Epoch:   3, Total:    512, Accuracy : 0.6680, Loss: 0.6433:  14%|█▍        | 1/7 [00:01<00:05,  1.20it/s][A
+[Train] Epoch:   3, Total:    512, Accuracy : 0.6680, Loss: 0.6433:  29%|██▊       | 2/7 [00:01<00:04,  1.17it/s][A
+[Train] Epoch:   3, Total:    768, Accuracy : 0.6667, Loss: 0.6340:  29%|██▊       | 2/7 [00:02<00:04,  1.17it/s][A
+[Train] Epoch:   3, Total:    768, Accuracy : 0.6667, Loss: 0.6340:  43%|████▎     | 3/7 [00:02<00:03,  1.16it/s][A
+[Train] Epoch:   3, Total:   1024, Accuracy : 0.6621, Loss: 0.6532:  43%|████▎     | 3/7 [00:03<00:03,  1.16it/s][A
+[Train] Epoch:   3, Total:   1024, Accuracy : 0.6621, Loss: 0.6532:  57%|█████▋    | 4/7 [00:03<00:02,  1.15it/s][A
+[Train] Epoch:   3, Total:   1280, Accuracy : 0.6648, Loss: 0.6293:  57%|█████▋    | 4/7 [00:04<00:02,  1.15it/s][A
+[Train] Epoch:   3, Total:   1280, Accuracy : 0.6648, Loss: 0.6293:  71%|███████▏  | 5/7 [00:04<00:01,  1.14it/s][A
+[Train] Epoch:   3, Total:   1536, Accuracy : 0.6647, Loss: 0.6460:  71%|███████▏  | 5/7 [00:05<00:01,  1.14it/s][A
+[Train] Epoch:   3, Total:   1536, Accuracy : 0.6647, Loss: 0.6460:  86%|████████▌ | 6/7 [00:05<00:00,  1.14it/s][A
+[Train] Epoch:   3, Total:   1710, Accuracy : 0.6696, Loss: 0.5965:  86%|████████▌ | 6/7 [00:05<00:00,  1.14it/s][A
+[Train] Epoch:   3, Total:   1710, Accuracy : 0.6696, Loss: 0.5965: 100%|██████████| 7/7 [00:05<00:00,  1.25it/s][A[Train] Epoch:   3, Total:   1710, Accuracy : 0.6696, Loss: 0.5965: 100%|██████████| 7/7 [00:05<00:00,  1.19it/s]
+
+  0%|          | 0/5 [00:00<?, ?it/s][A
+[Eval] Epoch:   3, Total:    256, Accuracy : 0.6562, Loss: 0.6372:   0%|          | 0/5 [00:00<?, ?it/s][A
+[Eval] Epoch:   3, Total:    256, Accuracy : 0.6562, Loss: 0.6372:  20%|██        | 1/5 [00:00<00:01,  3.06it/s][A
+[Eval] Epoch:   3, Total:    512, Accuracy : 0.6934, Loss: 0.5822:  20%|██        | 1/5 [00:00<00:01,  3.06it/s][A
+[Eval] Epoch:   3, Total:    512, Accuracy : 0.6934, Loss: 0.5822:  40%|████      | 2/5 [00:00<00:00,  3.20it/s][A
+[Eval] Epoch:   3, Total:    768, Accuracy : 0.6810, Loss: 0.6396:  40%|████      | 2/5 [00:00<00:00,  3.20it/s][A
+[Eval] Epoch:   3, Total:    768, Accuracy : 0.6810, Loss: 0.6396:  60%|██████    | 3/5 [00:00<00:00,  3.23it/s][A
+[Eval] Epoch:   3, Total:   1024, Accuracy : 0.6885, Loss: 0.5913:  60%|██████    | 3/5 [00:01<00:00,  3.23it/s][A
+[Eval] Epoch:   3, Total:   1024, Accuracy : 0.6885, Loss: 0.5913:  80%|████████  | 4/5 [00:01<00:00,  3.25it/s][A
+[Eval] Epoch:   3, Total:   1043, Accuracy : 0.6913, Loss: 0.4993:  80%|████████  | 4/5 [00:01<00:00,  3.25it/s][A[Eval] Epoch:   3, Total:   1043, Accuracy : 0.6913, Loss: 0.4993: 100%|██████████| 5/5 [00:01<00:00,  3.95it/s]
+ 20%|██        | 4/20 [00:31<02:00,  7.50s/it]
+  0%|          | 0/7 [00:00<?, ?it/s][A
+[Train] Epoch:   4, Total:    256, Accuracy : 0.6953, Loss: 0.6140:   0%|          | 0/7 [00:00<?, ?it/s][A
+[Train] Epoch:   4, Total:    256, Accuracy : 0.6953, Loss: 0.6140:  14%|█▍        | 1/7 [00:00<00:05,  1.17it/s][A
+[Train] Epoch:   4, Total:    512, Accuracy : 0.6816, Loss: 0.6248:  14%|█▍        | 1/7 [00:01<00:05,  1.17it/s][A
+[Train] Epoch:   4, Total:    512, Accuracy : 0.6816, Loss: 0.6248:  29%|██▊       | 2/7 [00:01<00:04,  1.15it/s][A
+[Train] Epoch:   4, Total:    768, Accuracy : 0.6732, Loss: 0.6384:  29%|██▊       | 2/7 [00:02<00:04,  1.15it/s][A
+[Train] Epoch:   4, Total:    768, Accuracy : 0.6732, Loss: 0.6384:  43%|████▎     | 3/7 [00:02<00:03,  1.14it/s][A
+[Train] Epoch:   4, Total:   1024, Accuracy : 0.6729, Loss: 0.6073:  43%|████▎     | 3/7 [00:03<00:03,  1.14it/s][A
+[Train] Epoch:   4, Total:   1024, Accuracy : 0.6729, Loss: 0.6073:  57%|█████▋    | 4/7 [00:03<00:02,  1.15it/s][A
+[Train] Epoch:   4, Total:   1280, Accuracy : 0.6781, Loss: 0.5847:  57%|█████▋    | 4/7 [00:04<00:02,  1.15it/s][A
+[Train] Epoch:   4, Total:   1280, Accuracy : 0.6781, Loss: 0.5847:  71%|███████▏  | 5/7 [00:04<00:01,  1.14it/s][A
+[Train] Epoch:   4, Total:   1536, Accuracy : 0.6738, Loss: 0.6326:  71%|███████▏  | 5/7 [00:05<00:01,  1.14it/s][A
+[Train] Epoch:   4, Total:   1536, Accuracy : 0.6738, Loss: 0.6326:  86%|████████▌ | 6/7 [00:05<00:00,  1.14it/s][A
+[Train] Epoch:   4, Total:   1710, Accuracy : 0.6696, Loss: 0.6428:  86%|████████▌ | 6/7 [00:05<00:00,  1.14it/s][A
+[Train] Epoch:   4, Total:   1710, Accuracy : 0.6696, Loss: 0.6428: 100%|██████████| 7/7 [00:05<00:00,  1.25it/s][A[Train] Epoch:   4, Total:   1710, Accuracy : 0.6696, Loss: 0.6428: 100%|██████████| 7/7 [00:05<00:00,  1.19it/s]
+
+  0%|          | 0/5 [00:00<?, ?it/s][A
+[Eval] Epoch:   4, Total:    256, Accuracy : 0.6562, Loss: 0.6339:   0%|          | 0/5 [00:00<?, ?it/s][A
+[Eval] Epoch:   4, Total:    256, Accuracy : 0.6562, Loss: 0.6339:  20%|██        | 1/5 [00:00<00:01,  3.07it/s][A
+[Eval] Epoch:   4, Total:    512, Accuracy : 0.6934, Loss: 0.5631:  20%|██        | 1/5 [00:00<00:01,  3.07it/s][A
+[Eval] Epoch:   4, Total:    512, Accuracy : 0.6934, Loss: 0.5631:  40%|████      | 2/5 [00:00<00:00,  3.22it/s][A
+[Eval] Epoch:   4, Total:    768, Accuracy : 0.6810, Loss: 0.6446:  40%|████      | 2/5 [00:00<00:00,  3.22it/s][A
+[Eval] Epoch:   4, Total:    768, Accuracy : 0.6810, Loss: 0.6446:  60%|██████    | 3/5 [00:00<00:00,  3.25it/s][A
+[Eval] Epoch:   4, Total:   1024, Accuracy : 0.6885, Loss: 0.5510:  60%|██████    | 3/5 [00:01<00:00,  3.25it/s][A
+[Eval] Epoch:   4, Total:   1024, Accuracy : 0.6885, Loss: 0.5510:  80%|████████  | 4/5 [00:01<00:00,  3.27it/s][A
+[Eval] Epoch:   4, Total:   1043, Accuracy : 0.6913, Loss: 0.4753:  80%|████████  | 4/5 [00:01<00:00,  3.27it/s][A[Eval] Epoch:   4, Total:   1043, Accuracy : 0.6913, Loss: 0.4753: 100%|██████████| 5/5 [00:01<00:00,  3.98it/s]
+ 25%|██▌       | 5/20 [00:38<01:50,  7.37s/it]
+  0%|          | 0/7 [00:00<?, ?it/s][A
+[Train] Epoch:   5, Total:    256, Accuracy : 0.6641, Loss: 0.6061:   0%|          | 0/7 [00:00<?, ?it/s][A
+[Train] Epoch:   5, Total:    256, Accuracy : 0.6641, Loss: 0.6061:  14%|█▍        | 1/7 [00:00<00:05,  1.19it/s][A
+[Train] Epoch:   5, Total:    512, Accuracy : 0.6719, Loss: 0.5807:  14%|█▍        | 1/7 [00:01<00:05,  1.19it/s][A
+[Train] Epoch:   5, Total:    512, Accuracy : 0.6719, Loss: 0.5807:  29%|██▊       | 2/7 [00:01<00:04,  1.16it/s][A
+[Train] Epoch:   5, Total:    768, Accuracy : 0.6797, Loss: 0.5585:  29%|██▊       | 2/7 [00:02<00:04,  1.16it/s][A
+[Train] Epoch:   5, Total:    768, Accuracy : 0.6797, Loss: 0.5585:  43%|████▎     | 3/7 [00:02<00:03,  1.15it/s][A
+[Train] Epoch:   5, Total:   1024, Accuracy : 0.6904, Loss: 0.5366:  43%|████▎     | 3/7 [00:03<00:03,  1.15it/s][A
+[Train] Epoch:   5, Total:   1024, Accuracy : 0.6904, Loss: 0.5366:  57%|█████▋    | 4/7 [00:03<00:02,  1.15it/s][A
+[Train] Epoch:   5, Total:   1280, Accuracy : 0.6789, Loss: 0.6044:  57%|█████▋    | 4/7 [00:04<00:02,  1.15it/s][A
+[Train] Epoch:   5, Total:   1280, Accuracy : 0.6789, Loss: 0.6044:  71%|███████▏  | 5/7 [00:04<00:01,  1.15it/s][A
+[Train] Epoch:   5, Total:   1536, Accuracy : 0.6699, Loss: 0.6186:  71%|███████▏  | 5/7 [00:05<00:01,  1.15it/s][A
+[Train] Epoch:   5, Total:   1536, Accuracy : 0.6699, Loss: 0.6186:  86%|████████▌ | 6/7 [00:05<00:00,  1.15it/s][A
+[Train] Epoch:   5, Total:   1710, Accuracy : 0.6696, Loss: 0.5917:  86%|████████▌ | 6/7 [00:05<00:00,  1.15it/s][A
+[Train] Epoch:   5, Total:   1710, Accuracy : 0.6696, Loss: 0.5917: 100%|██████████| 7/7 [00:05<00:00,  1.26it/s][A[Train] Epoch:   5, Total:   1710, Accuracy : 0.6696, Loss: 0.5917: 100%|██████████| 7/7 [00:05<00:00,  1.20it/s]
+
+  0%|          | 0/5 [00:00<?, ?it/s][A
+[Eval] Epoch:   5, Total:    256, Accuracy : 0.6562, Loss: 0.5896:   0%|          | 0/5 [00:00<?, ?it/s][A
+[Eval] Epoch:   5, Total:    256, Accuracy : 0.6562, Loss: 0.5896:  20%|██        | 1/5 [00:00<00:01,  3.05it/s][A
+[Eval] Epoch:   5, Total:    512, Accuracy : 0.6934, Loss: 0.5196:  20%|██        | 1/5 [00:00<00:01,  3.05it/s][A
+[Eval] Epoch:   5, Total:    512, Accuracy : 0.6934, Loss: 0.5196:  40%|████      | 2/5 [00:00<00:00,  3.19it/s][A
+[Eval] Epoch:   5, Total:    768, Accuracy : 0.6810, Loss: 0.6100:  40%|████      | 2/5 [00:00<00:00,  3.19it/s][A
+[Eval] Epoch:   5, Total:    768, Accuracy : 0.6810, Loss: 0.6100:  60%|██████    | 3/5 [00:00<00:00,  3.24it/s][A
+[Eval] Epoch:   5, Total:   1024, Accuracy : 0.6885, Loss: 0.4952:  60%|██████    | 3/5 [00:01<00:00,  3.24it/s][A
+[Eval] Epoch:   5, Total:   1024, Accuracy : 0.6885, Loss: 0.4952:  80%|████████  | 4/5 [00:01<00:00,  3.24it/s][A
+[Eval] Epoch:   5, Total:   1043, Accuracy : 0.6913, Loss: 0.4889:  80%|████████  | 4/5 [00:01<00:00,  3.24it/s][A[Eval] Epoch:   5, Total:   1043, Accuracy : 0.6913, Loss: 0.4889: 100%|██████████| 5/5 [00:01<00:00,  3.94it/s]
+ 30%|███       | 6/20 [00:45<01:41,  7.28s/it]
+  0%|          | 0/7 [00:00<?, ?it/s][A
+[Train] Epoch:   6, Total:    256, Accuracy : 0.6875, Loss: 0.5468:   0%|          | 0/7 [00:00<?, ?it/s][A
+[Train] Epoch:   6, Total:    256, Accuracy : 0.6875, Loss: 0.5468:  14%|█▍        | 1/7 [00:00<00:05,  1.17it/s][A
+[Train] Epoch:   6, Total:    512, Accuracy : 0.6680, Loss: 0.5628:  14%|█▍        | 1/7 [00:01<00:05,  1.17it/s][A
+[Train] Epoch:   6, Total:    512, Accuracy : 0.6680, Loss: 0.5628:  29%|██▊       | 2/7 [00:01<00:04,  1.15it/s][A
+[Train] Epoch:   6, Total:    768, Accuracy : 0.6771, Loss: 0.5187:  29%|██▊       | 2/7 [00:02<00:04,  1.15it/s][A
+[Train] Epoch:   6, Total:    768, Accuracy : 0.6771, Loss: 0.5187:  43%|████▎     | 3/7 [00:02<00:03,  1.14it/s][A
+[Train] Epoch:   6, Total:   1024, Accuracy : 0.6748, Loss: 0.5580:  43%|████▎     | 3/7 [00:03<00:03,  1.14it/s][A
+[Train] Epoch:   6, Total:   1024, Accuracy : 0.6748, Loss: 0.5580:  57%|█████▋    | 4/7 [00:03<00:02,  1.14it/s][A
+[Train] Epoch:   6, Total:   1280, Accuracy : 0.6641, Loss: 0.5606:  57%|█████▋    | 4/7 [00:04<00:02,  1.14it/s][A
+[Train] Epoch:   6, Total:   1280, Accuracy : 0.6641, Loss: 0.5606:  71%|███████▏  | 5/7 [00:04<00:01,  1.14it/s][A
+[Train] Epoch:   6, Total:   1536, Accuracy : 0.6628, Loss: 0.5075:  71%|███████▏  | 5/7 [00:05<00:01,  1.14it/s][A
+[Train] Epoch:   6, Total:   1536, Accuracy : 0.6628, Loss: 0.5075:  86%|████████▌ | 6/7 [00:05<00:00,  1.14it/s][A
+[Train] Epoch:   6, Total:   1710, Accuracy : 0.6702, Loss: 0.4602:  86%|████████▌ | 6/7 [00:05<00:00,  1.14it/s][A
+[Train] Epoch:   6, Total:   1710, Accuracy : 0.6702, Loss: 0.4602: 100%|██████████| 7/7 [00:05<00:00,  1.26it/s][A[Train] Epoch:   6, Total:   1710, Accuracy : 0.6702, Loss: 0.4602: 100%|██████████| 7/7 [00:05<00:00,  1.19it/s]
+
+  0%|          | 0/5 [00:00<?, ?it/s][A
+[Eval] Epoch:   6, Total:    256, Accuracy : 0.6562, Loss: 0.6441:   0%|          | 0/5 [00:00<?, ?it/s][A
+[Eval] Epoch:   6, Total:    256, Accuracy : 0.6562, Loss: 0.6441:  20%|██        | 1/5 [00:00<00:01,  3.00it/s][A
+[Eval] Epoch:   6, Total:    512, Accuracy : 0.6934, Loss: 0.5114:  20%|██        | 1/5 [00:00<00:01,  3.00it/s][A
+[Eval] Epoch:   6, Total:    512, Accuracy : 0.6934, Loss: 0.5114:  40%|████      | 2/5 [00:00<00:00,  3.17it/s][A
+[Eval] Epoch:   6, Total:    768, Accuracy : 0.6810, Loss: 0.6561:  40%|████      | 2/5 [00:00<00:00,  3.17it/s][A
+[Eval] Epoch:   6, Total:    768, Accuracy : 0.6810, Loss: 0.6561:  60%|██████    | 3/5 [00:00<00:00,  3.21it/s][A
+[Eval] Epoch:   6, Total:   1024, Accuracy : 0.6885, Loss: 0.4540:  60%|██████    | 3/5 [00:01<00:00,  3.21it/s][A
+[Eval] Epoch:   6, Total:   1024, Accuracy : 0.6885, Loss: 0.4540:  80%|████████  | 4/5 [00:01<00:00,  3.22it/s][A
+[Eval] Epoch:   6, Total:   1043, Accuracy : 0.6913, Loss: 0.4642:  80%|████████  | 4/5 [00:01<00:00,  3.22it/s][A[Eval] Epoch:   6, Total:   1043, Accuracy : 0.6913, Loss: 0.4642: 100%|██████████| 5/5 [00:01<00:00,  3.91it/s]
+ 35%|███▌      | 7/20 [00:52<01:34,  7.24s/it]
+  0%|          | 0/7 [00:00<?, ?it/s][A
+[Train] Epoch:   7, Total:    256, Accuracy : 0.7070, Loss: 0.4958:   0%|          | 0/7 [00:00<?, ?it/s][A
+[Train] Epoch:   7, Total:    256, Accuracy : 0.7070, Loss: 0.4958:  14%|█▍        | 1/7 [00:00<00:05,  1.17it/s][A
+[Train] Epoch:   7, Total:    512, Accuracy : 0.7285, Loss: 0.4523:  14%|█▍        | 1/7 [00:01<00:05,  1.17it/s][A
+[Train] Epoch:   7, Total:    512, Accuracy : 0.7285, Loss: 0.4523:  29%|██▊       | 2/7 [00:01<00:04,  1.10it/s][A
+[Train] Epoch:   7, Total:    768, Accuracy : 0.7435, Loss: 0.4711:  29%|██▊       | 2/7 [00:02<00:04,  1.10it/s][A
+[Train] Epoch:   7, Total:    768, Accuracy : 0.7435, Loss: 0.4711:  43%|████▎     | 3/7 [00:02<00:03,  1.12it/s][A
+[Train] Epoch:   7, Total:   1024, Accuracy : 0.7598, Loss: 0.4443:  43%|████▎     | 3/7 [00:03<00:03,  1.12it/s][A
+[Train] Epoch:   7, Total:   1024, Accuracy : 0.7598, Loss: 0.4443:  57%|█████▋    | 4/7 [00:03<00:02,  1.13it/s][A
+[Train] Epoch:   7, Total:   1280, Accuracy : 0.7688, Loss: 0.4489:  57%|█████▋    | 4/7 [00:04<00:02,  1.13it/s][A
+[Train] Epoch:   7, Total:   1280, Accuracy : 0.7688, Loss: 0.4489:  71%|███████▏  | 5/7 [00:04<00:01,  1.13it/s][A
+[Train] Epoch:   7, Total:   1536, Accuracy : 0.7760, Loss: 0.4204:  71%|███████▏  | 5/7 [00:05<00:01,  1.13it/s][A
+[Train] Epoch:   7, Total:   1536, Accuracy : 0.7760, Loss: 0.4204:  86%|████████▌ | 6/7 [00:05<00:00,  1.13it/s][A
+[Train] Epoch:   7, Total:   1710, Accuracy : 0.7795, Loss: 0.4291:  86%|████████▌ | 6/7 [00:05<00:00,  1.13it/s][A
+[Train] Epoch:   7, Total:   1710, Accuracy : 0.7795, Loss: 0.4291: 100%|██████████| 7/7 [00:05<00:00,  1.24it/s][A[Train] Epoch:   7, Total:   1710, Accuracy : 0.7795, Loss: 0.4291: 100%|██████████| 7/7 [00:05<00:00,  1.18it/s]
+
+  0%|          | 0/5 [00:00<?, ?it/s][A
+[Eval] Epoch:   7, Total:    256, Accuracy : 0.7422, Loss: 0.6340:   0%|          | 0/5 [00:00<?, ?it/s][A
+[Eval] Epoch:   7, Total:    256, Accuracy : 0.7422, Loss: 0.6340:  20%|██        | 1/5 [00:00<00:01,  3.01it/s][A
+[Eval] Epoch:   7, Total:    512, Accuracy : 0.7656, Loss: 0.4612:  20%|██        | 1/5 [00:00<00:01,  3.01it/s][A
+[Eval] Epoch:   7, Total:    512, Accuracy : 0.7656, Loss: 0.4612:  40%|████      | 2/5 [00:00<00:00,  3.17it/s][A
+[Eval] Epoch:   7, Total:    768, Accuracy : 0.7500, Loss: 0.6647:  40%|████      | 2/5 [00:00<00:00,  3.17it/s][A
+[Eval] Epoch:   7, Total:    768, Accuracy : 0.7500, Loss: 0.6647:  60%|██████    | 3/5 [00:00<00:00,  3.21it/s][A
+[Eval] Epoch:   7, Total:   1024, Accuracy : 0.7734, Loss: 0.4131:  60%|██████    | 3/5 [00:01<00:00,  3.21it/s][A
+[Eval] Epoch:   7, Total:   1024, Accuracy : 0.7734, Loss: 0.4131:  80%|████████  | 4/5 [00:01<00:00,  3.24it/s][A
+[Eval] Epoch:   7, Total:   1043, Accuracy : 0.7737, Loss: 0.4737:  80%|████████  | 4/5 [00:01<00:00,  3.24it/s][A[Eval] Epoch:   7, Total:   1043, Accuracy : 0.7737, Loss: 0.4737: 100%|██████████| 5/5 [00:01<00:00,  3.93it/s]
+ 40%|████      | 8/20 [00:59<01:26,  7.24s/it]
+  0%|          | 0/7 [00:00<?, ?it/s][A
+[Train] Epoch:   8, Total:    256, Accuracy : 0.8320, Loss: 0.4060:   0%|          | 0/7 [00:00<?, ?it/s][A
+[Train] Epoch:   8, Total:    256, Accuracy : 0.8320, Loss: 0.4060:  14%|█▍        | 1/7 [00:00<00:05,  1.19it/s][A
+[Train] Epoch:   8, Total:    512, Accuracy : 0.8398, Loss: 0.3890:  14%|█▍        | 1/7 [00:01<00:05,  1.19it/s][A
+[Train] Epoch:   8, Total:    512, Accuracy : 0.8398, Loss: 0.3890:  29%|██▊       | 2/7 [00:01<00:04,  1.17it/s][A
+[Train] Epoch:   8, Total:    768, Accuracy : 0.8281, Loss: 0.4155:  29%|██▊       | 2/7 [00:02<00:04,  1.17it/s][A
+[Train] Epoch:   8, Total:    768, Accuracy : 0.8281, Loss: 0.4155:  43%|████▎     | 3/7 [00:02<00:03,  1.15it/s][A
+[Train] Epoch:   8, Total:   1024, Accuracy : 0.8350, Loss: 0.3553:  43%|████▎     | 3/7 [00:03<00:03,  1.15it/s][A
+[Train] Epoch:   8, Total:   1024, Accuracy : 0.8350, Loss: 0.3553:  57%|█████▋    | 4/7 [00:03<00:02,  1.14it/s][A
+[Train] Epoch:   8, Total:   1280, Accuracy : 0.8438, Loss: 0.3501:  57%|█████▋    | 4/7 [00:04<00:02,  1.14it/s][A
+[Train] Epoch:   8, Total:   1280, Accuracy : 0.8438, Loss: 0.3501:  71%|███████▏  | 5/7 [00:04<00:01,  1.14it/s][A
+[Train] Epoch:   8, Total:   1536, Accuracy : 0.8464, Loss: 0.3655:  71%|███████▏  | 5/7 [00:05<00:01,  1.14it/s][A
+[Train] Epoch:   8, Total:   1536, Accuracy : 0.8464, Loss: 0.3655:  86%|████████▌ | 6/7 [00:05<00:00,  1.15it/s][A
+[Train] Epoch:   8, Total:   1710, Accuracy : 0.8509, Loss: 0.2975:  86%|████████▌ | 6/7 [00:05<00:00,  1.15it/s][A
+[Train] Epoch:   8, Total:   1710, Accuracy : 0.8509, Loss: 0.2975: 100%|██████████| 7/7 [00:05<00:00,  1.26it/s][A[Train] Epoch:   8, Total:   1710, Accuracy : 0.8509, Loss: 0.2975: 100%|██████████| 7/7 [00:05<00:00,  1.19it/s]
+
+  0%|          | 0/5 [00:00<?, ?it/s][A
+[Eval] Epoch:   8, Total:    256, Accuracy : 0.7422, Loss: 0.7287:   0%|          | 0/5 [00:00<?, ?it/s][A
+[Eval] Epoch:   8, Total:    256, Accuracy : 0.7422, Loss: 0.7287:  20%|██        | 1/5 [00:00<00:01,  2.99it/s][A
+[Eval] Epoch:   8, Total:    512, Accuracy : 0.7832, Loss: 0.4955:  20%|██        | 1/5 [00:00<00:01,  2.99it/s][A
+[Eval] Epoch:   8, Total:    512, Accuracy : 0.7832, Loss: 0.4955:  40%|████      | 2/5 [00:00<00:00,  3.18it/s][A
+[Eval] Epoch:   8, Total:    768, Accuracy : 0.7695, Loss: 0.7339:  40%|████      | 2/5 [00:00<00:00,  3.18it/s][A
+[Eval] Epoch:   8, Total:    768, Accuracy : 0.7695, Loss: 0.7339:  60%|██████    | 3/5 [00:00<00:00,  3.23it/s][A
+[Eval] Epoch:   8, Total:   1024, Accuracy : 0.7861, Loss: 0.4248:  60%|██████    | 3/5 [00:01<00:00,  3.23it/s][A
+[Eval] Epoch:   8, Total:   1024, Accuracy : 0.7861, Loss: 0.4248:  80%|████████  | 4/5 [00:01<00:00,  3.25it/s][A
+[Eval] Epoch:   8, Total:   1043, Accuracy : 0.7852, Loss: 0.5620:  80%|████████  | 4/5 [00:01<00:00,  3.25it/s][A[Eval] Epoch:   8, Total:   1043, Accuracy : 0.7852, Loss: 0.5620: 100%|██████████| 5/5 [00:01<00:00,  3.94it/s]
+ 45%|████▌     | 9/20 [01:06<01:19,  7.21s/it]
+  0%|          | 0/7 [00:00<?, ?it/s][A
+[Train] Epoch:   9, Total:    256, Accuracy : 0.8789, Loss: 0.3450:   0%|          | 0/7 [00:00<?, ?it/s][A
+[Train] Epoch:   9, Total:    256, Accuracy : 0.8789, Loss: 0.3450:  14%|█▍        | 1/7 [00:00<00:05,  1.19it/s][A
+[Train] Epoch:   9, Total:    512, Accuracy : 0.8750, Loss: 0.3455:  14%|█▍        | 1/7 [00:01<00:05,  1.19it/s][A
+[Train] Epoch:   9, Total:    512, Accuracy : 0.8750, Loss: 0.3455:  29%|██▊       | 2/7 [00:01<00:04,  1.16it/s][A
+[Train] Epoch:   9, Total:    768, Accuracy : 0.8711, Loss: 0.3184:  29%|██▊       | 2/7 [00:02<00:04,  1.16it/s][A
+[Train] Epoch:   9, Total:    768, Accuracy : 0.8711, Loss: 0.3184:  43%|████▎     | 3/7 [00:02<00:03,  1.16it/s][A
+[Train] Epoch:   9, Total:   1024, Accuracy : 0.8613, Loss: 0.3763:  43%|████▎     | 3/7 [00:03<00:03,  1.16it/s][A
+[Train] Epoch:   9, Total:   1024, Accuracy : 0.8613, Loss: 0.3763:  57%|█████▋    | 4/7 [00:03<00:02,  1.16it/s][A
+[Train] Epoch:   9, Total:   1280, Accuracy : 0.8664, Loss: 0.2990:  57%|█████▋    | 4/7 [00:04<00:02,  1.16it/s][A
+[Train] Epoch:   9, Total:   1280, Accuracy : 0.8664, Loss: 0.2990:  71%|███████▏  | 5/7 [00:04<00:01,  1.15it/s][A
+[Train] Epoch:   9, Total:   1536, Accuracy : 0.8678, Loss: 0.2834:  71%|███████▏  | 5/7 [00:05<00:01,  1.15it/s][A
+[Train] Epoch:   9, Total:   1536, Accuracy : 0.8678, Loss: 0.2834:  86%|████████▌ | 6/7 [00:05<00:00,  1.14it/s][A
+[Train] Epoch:   9, Total:   1710, Accuracy : 0.8713, Loss: 0.2700:  86%|████████▌ | 6/7 [00:05<00:00,  1.14it/s][A
+[Train] Epoch:   9, Total:   1710, Accuracy : 0.8713, Loss: 0.2700: 100%|██████████| 7/7 [00:05<00:00,  1.26it/s][A[Train] Epoch:   9, Total:   1710, Accuracy : 0.8713, Loss: 0.2700: 100%|██████████| 7/7 [00:05<00:00,  1.20it/s]
+
+  0%|          | 0/5 [00:00<?, ?it/s][A
+[Eval] Epoch:   9, Total:    256, Accuracy : 0.7617, Loss: 0.7899:   0%|          | 0/5 [00:00<?, ?it/s][A
+[Eval] Epoch:   9, Total:    256, Accuracy : 0.7617, Loss: 0.7899:  20%|██        | 1/5 [00:00<00:01,  3.03it/s][A
+[Eval] Epoch:   9, Total:    512, Accuracy : 0.7812, Loss: 0.5525:  20%|██        | 1/5 [00:00<00:01,  3.03it/s][A
+[Eval] Epoch:   9, Total:    512, Accuracy : 0.7812, Loss: 0.5525:  40%|████      | 2/5 [00:00<00:00,  3.18it/s][A
+[Eval] Epoch:   9, Total:    768, Accuracy : 0.7643, Loss: 0.8268:  40%|████      | 2/5 [00:00<00:00,  3.18it/s][A
+[Eval] Epoch:   9, Total:    768, Accuracy : 0.7643, Loss: 0.8268:  60%|██████    | 3/5 [00:00<00:00,  3.22it/s][A
+[Eval] Epoch:   9, Total:   1024, Accuracy : 0.7852, Loss: 0.4326:  60%|██████    | 3/5 [00:01<00:00,  3.22it/s][A
+[Eval] Epoch:   9, Total:   1024, Accuracy : 0.7852, Loss: 0.4326:  80%|████████  | 4/5 [00:01<00:00,  3.25it/s][A
+[Eval] Epoch:   9, Total:   1043, Accuracy : 0.7843, Loss: 0.7412:  80%|████████  | 4/5 [00:01<00:00,  3.25it/s][A[Eval] Epoch:   9, Total:   1043, Accuracy : 0.7843, Loss: 0.7412: 100%|██████████| 5/5 [00:01<00:00,  3.94it/s]
+ 50%|█████     | 10/20 [01:14<01:11,  7.18s/it]
+  0%|          | 0/7 [00:00<?, ?it/s][A
+[Train] Epoch:  10, Total:    256, Accuracy : 0.8906, Loss: 0.2534:   0%|          | 0/7 [00:00<?, ?it/s][A
+[Train] Epoch:  10, Total:    256, Accuracy : 0.8906, Loss: 0.2534:  14%|█▍        | 1/7 [00:00<00:05,  1.18it/s][A
+[Train] Epoch:  10, Total:    512, Accuracy : 0.8926, Loss: 0.2938:  14%|█▍        | 1/7 [00:01<00:05,  1.18it/s][A
+[Train] Epoch:  10, Total:    512, Accuracy : 0.8926, Loss: 0.2938:  29%|██▊       | 2/7 [00:01<00:04,  1.15it/s][A
+[Train] Epoch:  10, Total:    768, Accuracy : 0.8893, Loss: 0.3233:  29%|██▊       | 2/7 [00:02<00:04,  1.15it/s][A
+[Train] Epoch:  10, Total:    768, Accuracy : 0.8893, Loss: 0.3233:  43%|████▎     | 3/7 [00:02<00:03,  1.14it/s][A
+[Train] Epoch:  10, Total:   1024, Accuracy : 0.8936, Loss: 0.2647:  43%|████▎     | 3/7 [00:03<00:03,  1.14it/s][A
+[Train] Epoch:  10, Total:   1024, Accuracy : 0.8936, Loss: 0.2647:  57%|█████▋    | 4/7 [00:03<00:02,  1.14it/s][A
+[Train] Epoch:  10, Total:   1280, Accuracy : 0.8938, Loss: 0.2672:  57%|█████▋    | 4/7 [00:04<00:02,  1.14it/s][A
+[Train] Epoch:  10, Total:   1280, Accuracy : 0.8938, Loss: 0.2672:  71%|███████▏  | 5/7 [00:04<00:01,  1.13it/s][A
+[Train] Epoch:  10, Total:   1536, Accuracy : 0.8939, Loss: 0.2605:  71%|███████▏  | 5/7 [00:05<00:01,  1.13it/s][A
+[Train] Epoch:  10, Total:   1536, Accuracy : 0.8939, Loss: 0.2605:  86%|████████▌ | 6/7 [00:05<00:00,  1.13it/s][A
+[Train] Epoch:  10, Total:   1710, Accuracy : 0.8965, Loss: 0.2373:  86%|████████▌ | 6/7 [00:05<00:00,  1.13it/s][A
+[Train] Epoch:  10, Total:   1710, Accuracy : 0.8965, Loss: 0.2373: 100%|██████████| 7/7 [00:05<00:00,  1.24it/s][A[Train] Epoch:  10, Total:   1710, Accuracy : 0.8965, Loss: 0.2373: 100%|██████████| 7/7 [00:05<00:00,  1.18it/s]
+
+  0%|          | 0/5 [00:00<?, ?it/s][A
+[Eval] Epoch:  10, Total:    256, Accuracy : 0.7734, Loss: 0.7343:   0%|          | 0/5 [00:00<?, ?it/s][A
+[Eval] Epoch:  10, Total:    256, Accuracy : 0.7734, Loss: 0.7343:  20%|██        | 1/5 [00:00<00:01,  3.03it/s][A
+[Eval] Epoch:  10, Total:    512, Accuracy : 0.7930, Loss: 0.4995:  20%|██        | 1/5 [00:00<00:01,  3.03it/s][A
+[Eval] Epoch:  10, Total:    512, Accuracy : 0.7930, Loss: 0.4995:  40%|████      | 2/5 [00:00<00:00,  3.18it/s][A
+[Eval] Epoch:  10, Total:    768, Accuracy : 0.7734, Loss: 0.7787:  40%|████      | 2/5 [00:00<00:00,  3.18it/s][A
+[Eval] Epoch:  10, Total:    768, Accuracy : 0.7734, Loss: 0.7787:  60%|██████    | 3/5 [00:00<00:00,  3.23it/s][A
+[Eval] Epoch:  10, Total:   1024, Accuracy : 0.7949, Loss: 0.3801:  60%|██████    | 3/5 [00:01<00:00,  3.23it/s][A
+[Eval] Epoch:  10, Total:   1024, Accuracy : 0.7949, Loss: 0.3801:  80%|████████  | 4/5 [00:01<00:00,  3.25it/s][A
+[Eval] Epoch:  10, Total:   1043, Accuracy : 0.7939, Loss: 0.7752:  80%|████████  | 4/5 [00:01<00:00,  3.25it/s][A[Eval] Epoch:  10, Total:   1043, Accuracy : 0.7939, Loss: 0.7752: 100%|██████████| 5/5 [00:01<00:00,  3.94it/s]
+ 55%|█████▌    | 11/20 [01:21<01:04,  7.18s/it]
+  0%|          | 0/7 [00:00<?, ?it/s][A
+[Train] Epoch:  11, Total:    256, Accuracy : 0.9141, Loss: 0.2362:   0%|          | 0/7 [00:00<?, ?it/s][A
+[Train] Epoch:  11, Total:    256, Accuracy : 0.9141, Loss: 0.2362:  14%|█▍        | 1/7 [00:00<00:05,  1.17it/s][A
+[Train] Epoch:  11, Total:    512, Accuracy : 0.9141, Loss: 0.2508:  14%|█▍        | 1/7 [00:01<00:05,  1.17it/s][A
+[Train] Epoch:  11, Total:    512, Accuracy : 0.9141, Loss: 0.2508:  29%|██▊       | 2/7 [00:01<00:04,  1.16it/s][A
+[Train] Epoch:  11, Total:    768, Accuracy : 0.8971, Loss: 0.3052:  29%|██▊       | 2/7 [00:02<00:04,  1.16it/s][A
+[Train] Epoch:  11, Total:    768, Accuracy : 0.8971, Loss: 0.3052:  43%|████▎     | 3/7 [00:02<00:03,  1.14it/s][A
+[Train] Epoch:  11, Total:   1024, Accuracy : 0.9043, Loss: 0.1971:  43%|████▎     | 3/7 [00:03<00:03,  1.14it/s][A
+[Train] Epoch:  11, Total:   1024, Accuracy : 0.9043, Loss: 0.1971:  57%|█████▋    | 4/7 [00:03<00:02,  1.14it/s][A
+[Train] Epoch:  11, Total:   1280, Accuracy : 0.9055, Loss: 0.2245:  57%|█████▋    | 4/7 [00:04<00:02,  1.14it/s][A
+[Train] Epoch:  11, Total:   1280, Accuracy : 0.9055, Loss: 0.2245:  71%|███████▏  | 5/7 [00:04<00:01,  1.13it/s][A
+[Train] Epoch:  11, Total:   1536, Accuracy : 0.9036, Loss: 0.2995:  71%|███████▏  | 5/7 [00:05<00:01,  1.13it/s][A
+[Train] Epoch:  11, Total:   1536, Accuracy : 0.9036, Loss: 0.2995:  86%|████████▌ | 6/7 [00:05<00:00,  1.13it/s][A
+[Train] Epoch:  11, Total:   1710, Accuracy : 0.9047, Loss: 0.2954:  86%|████████▌ | 6/7 [00:05<00:00,  1.13it/s][A
+[Train] Epoch:  11, Total:   1710, Accuracy : 0.9047, Loss: 0.2954: 100%|██████████| 7/7 [00:05<00:00,  1.25it/s][A[Train] Epoch:  11, Total:   1710, Accuracy : 0.9047, Loss: 0.2954: 100%|██████████| 7/7 [00:05<00:00,  1.19it/s]
+
+  0%|          | 0/5 [00:00<?, ?it/s][A
+[Eval] Epoch:  11, Total:    256, Accuracy : 0.7656, Loss: 0.8436:   0%|          | 0/5 [00:00<?, ?it/s][A
+[Eval] Epoch:  11, Total:    256, Accuracy : 0.7656, Loss: 0.8436:  20%|██        | 1/5 [00:00<00:01,  3.07it/s][A
+[Eval] Epoch:  11, Total:    512, Accuracy : 0.7949, Loss: 0.5885:  20%|██        | 1/5 [00:00<00:01,  3.07it/s][A
+[Eval] Epoch:  11, Total:    512, Accuracy : 0.7949, Loss: 0.5885:  40%|████      | 2/5 [00:00<00:00,  3.21it/s][A
+[Eval] Epoch:  11, Total:    768, Accuracy : 0.7721, Loss: 0.8948:  40%|████      | 2/5 [00:00<00:00,  3.21it/s][A
+[Eval] Epoch:  11, Total:    768, Accuracy : 0.7721, Loss: 0.8948:  60%|██████    | 3/5 [00:00<00:00,  3.24it/s][A
+[Eval] Epoch:  11, Total:   1024, Accuracy : 0.7891, Loss: 0.4752:  60%|██████    | 3/5 [00:01<00:00,  3.24it/s][A
+[Eval] Epoch:  11, Total:   1024, Accuracy : 0.7891, Loss: 0.4752:  80%|████████  | 4/5 [00:01<00:00,  3.26it/s][A
+[Eval] Epoch:  11, Total:   1043, Accuracy : 0.7891, Loss: 0.7926:  80%|████████  | 4/5 [00:01<00:00,  3.26it/s][A[Eval] Epoch:  11, Total:   1043, Accuracy : 0.7891, Loss: 0.7926: 100%|██████████| 5/5 [00:01<00:00,  3.96it/s]
+ 60%|██████    | 12/20 [01:28<00:57,  7.18s/it]
+  0%|          | 0/7 [00:00<?, ?it/s][A
+[Train] Epoch:  12, Total:    256, Accuracy : 0.8945, Loss: 0.2942:   0%|          | 0/7 [00:00<?, ?it/s][A
+[Train] Epoch:  12, Total:    256, Accuracy : 0.8945, Loss: 0.2942:  14%|█▍        | 1/7 [00:00<00:05,  1.17it/s][A
+[Train] Epoch:  12, Total:    512, Accuracy : 0.9043, Loss: 0.2397:  14%|█▍        | 1/7 [00:01<00:05,  1.17it/s][A
+[Train] Epoch:  12, Total:    512, Accuracy : 0.9043, Loss: 0.2397:  29%|██▊       | 2/7 [00:01<00:04,  1.15it/s][A
+[Train] Epoch:  12, Total:    768, Accuracy : 0.9062, Loss: 0.2613:  29%|██▊       | 2/7 [00:02<00:04,  1.15it/s][A
+[Train] Epoch:  12, Total:    768, Accuracy : 0.9062, Loss: 0.2613:  43%|████▎     | 3/7 [00:02<00:03,  1.15it/s][A
+[Train] Epoch:  12, Total:   1024, Accuracy : 0.9072, Loss: 0.2244:  43%|████▎     | 3/7 [00:03<00:03,  1.15it/s][A
+[Train] Epoch:  12, Total:   1024, Accuracy : 0.9072, Loss: 0.2244:  57%|█████▋    | 4/7 [00:03<00:02,  1.14it/s][A
+[Train] Epoch:  12, Total:   1280, Accuracy : 0.9070, Loss: 0.2183:  57%|█████▋    | 4/7 [00:04<00:02,  1.14it/s][A
+[Train] Epoch:  12, Total:   1280, Accuracy : 0.9070, Loss: 0.2183:  71%|███████▏  | 5/7 [00:04<00:01,  1.13it/s][A
+[Train] Epoch:  12, Total:   1536, Accuracy : 0.9128, Loss: 0.1858:  71%|███████▏  | 5/7 [00:05<00:01,  1.13it/s][A
+[Train] Epoch:  12, Total:   1536, Accuracy : 0.9128, Loss: 0.1858:  86%|████████▌ | 6/7 [00:05<00:00,  1.14it/s][A
+[Train] Epoch:  12, Total:   1710, Accuracy : 0.9135, Loss: 0.2752:  86%|████████▌ | 6/7 [00:05<00:00,  1.14it/s][A
+[Train] Epoch:  12, Total:   1710, Accuracy : 0.9135, Loss: 0.2752: 100%|██████████| 7/7 [00:05<00:00,  1.25it/s][A[Train] Epoch:  12, Total:   1710, Accuracy : 0.9135, Loss: 0.2752: 100%|██████████| 7/7 [00:05<00:00,  1.19it/s]
+
+  0%|          | 0/5 [00:00<?, ?it/s][A
+[Eval] Epoch:  12, Total:    256, Accuracy : 0.7617, Loss: 0.8206:   0%|          | 0/5 [00:00<?, ?it/s][A
+[Eval] Epoch:  12, Total:    256, Accuracy : 0.7617, Loss: 0.8206:  20%|██        | 1/5 [00:00<00:01,  3.08it/s][A
+[Eval] Epoch:  12, Total:    512, Accuracy : 0.7930, Loss: 0.5674:  20%|██        | 1/5 [00:00<00:01,  3.08it/s][A
+[Eval] Epoch:  12, Total:    512, Accuracy : 0.7930, Loss: 0.5674:  40%|████      | 2/5 [00:00<00:00,  3.19it/s][A
+[Eval] Epoch:  12, Total:    768, Accuracy : 0.7747, Loss: 0.8700:  40%|████      | 2/5 [00:00<00:00,  3.19it/s][A
+[Eval] Epoch:  12, Total:    768, Accuracy : 0.7747, Loss: 0.8700:  60%|██████    | 3/5 [00:00<00:00,  3.23it/s][A
+[Eval] Epoch:  12, Total:   1024, Accuracy : 0.7920, Loss: 0.4552:  60%|██████    | 3/5 [00:01<00:00,  3.23it/s][A
+[Eval] Epoch:  12, Total:   1024, Accuracy : 0.7920, Loss: 0.4552:  80%|████████  | 4/5 [00:01<00:00,  3.24it/s][A
+[Eval] Epoch:  12, Total:   1043, Accuracy : 0.7919, Loss: 0.7932:  80%|████████  | 4/5 [00:01<00:00,  3.24it/s][A[Eval] Epoch:  12, Total:   1043, Accuracy : 0.7919, Loss: 0.7932: 100%|██████████| 5/5 [00:01<00:00,  3.94it/s]
+ 65%|██████▌   | 13/20 [01:35<00:50,  7.17s/it]
+  0%|          | 0/7 [00:00<?, ?it/s][A
+[Train] Epoch:  13, Total:    256, Accuracy : 0.9414, Loss: 0.1640:   0%|          | 0/7 [00:00<?, ?it/s][A
+[Train] Epoch:  13, Total:    256, Accuracy : 0.9414, Loss: 0.1640:  14%|█▍        | 1/7 [00:00<00:05,  1.19it/s][A
+[Train] Epoch:  13, Total:    512, Accuracy : 0.9160, Loss: 0.2784:  14%|█▍        | 1/7 [00:01<00:05,  1.19it/s][A
+[Train] Epoch:  13, Total:    512, Accuracy : 0.9160, Loss: 0.2784:  29%|██▊       | 2/7 [00:01<00:04,  1.16it/s][A
+[Train] Epoch:  13, Total:    768, Accuracy : 0.9180, Loss: 0.2348:  29%|██▊       | 2/7 [00:02<00:04,  1.16it/s][A
+[Train] Epoch:  13, Total:    768, Accuracy : 0.9180, Loss: 0.2348:  43%|████▎     | 3/7 [00:02<00:03,  1.15it/s][A
+[Train] Epoch:  13, Total:   1024, Accuracy : 0.9160, Loss: 0.2463:  43%|████▎     | 3/7 [00:03<00:03,  1.15it/s][A
+[Train] Epoch:  13, Total:   1024, Accuracy : 0.9160, Loss: 0.2463:  57%|█████▋    | 4/7 [00:03<00:02,  1.12it/s][A
+[Train] Epoch:  13, Total:   1280, Accuracy : 0.9172, Loss: 0.2237:  57%|█████▋    | 4/7 [00:04<00:02,  1.12it/s][A
+[Train] Epoch:  13, Total:   1280, Accuracy : 0.9172, Loss: 0.2237:  71%|███████▏  | 5/7 [00:04<00:01,  1.13it/s][A
+[Train] Epoch:  13, Total:   1536, Accuracy : 0.9180, Loss: 0.2192:  71%|███████▏  | 5/7 [00:05<00:01,  1.13it/s][A
+[Train] Epoch:  13, Total:   1536, Accuracy : 0.9180, Loss: 0.2192:  86%|████████▌ | 6/7 [00:05<00:00,  1.12it/s][A
+[Train] Epoch:  13, Total:   1710, Accuracy : 0.9140, Loss: 0.2933:  86%|████████▌ | 6/7 [00:05<00:00,  1.12it/s][A
+[Train] Epoch:  13, Total:   1710, Accuracy : 0.9140, Loss: 0.2933: 100%|██████████| 7/7 [00:05<00:00,  1.24it/s][A[Train] Epoch:  13, Total:   1710, Accuracy : 0.9140, Loss: 0.2933: 100%|██████████| 7/7 [00:05<00:00,  1.18it/s]
+
+  0%|          | 0/5 [00:00<?, ?it/s][A
+[Eval] Epoch:  13, Total:    256, Accuracy : 0.7891, Loss: 0.6119:   0%|          | 0/5 [00:00<?, ?it/s][A
+[Eval] Epoch:  13, Total:    256, Accuracy : 0.7891, Loss: 0.6119:  20%|██        | 1/5 [00:00<00:01,  3.06it/s][A
+[Eval] Epoch:  13, Total:    512, Accuracy : 0.8105, Loss: 0.4337:  20%|██        | 1/5 [00:00<00:01,  3.06it/s][A
+[Eval] Epoch:  13, Total:    512, Accuracy : 0.8105, Loss: 0.4337:  40%|████      | 2/5 [00:00<00:00,  3.20it/s][A
+[Eval] Epoch:  13, Total:    768, Accuracy : 0.7865, Loss: 0.6783:  40%|████      | 2/5 [00:00<00:00,  3.20it/s][A
+[Eval] Epoch:  13, Total:    768, Accuracy : 0.7865, Loss: 0.6783:  60%|██████    | 3/5 [00:00<00:00,  3.22it/s][A
+[Eval] Epoch:  13, Total:   1024, Accuracy : 0.7979, Loss: 0.3710:  60%|██████    | 3/5 [00:01<00:00,  3.22it/s][A
+[Eval] Epoch:  13, Total:   1024, Accuracy : 0.7979, Loss: 0.3710:  80%|████████  | 4/5 [00:01<00:00,  3.22it/s][A
+[Eval] Epoch:  13, Total:   1043, Accuracy : 0.7939, Loss: 0.8076:  80%|████████  | 4/5 [00:01<00:00,  3.22it/s][A[Eval] Epoch:  13, Total:   1043, Accuracy : 0.7939, Loss: 0.8076: 100%|██████████| 5/5 [00:01<00:00,  3.92it/s]
+ 70%|███████   | 14/20 [01:42<00:43,  7.19s/it]
+  0%|          | 0/7 [00:00<?, ?it/s][A
+[Train] Epoch:  14, Total:    256, Accuracy : 0.8672, Loss: 0.2918:   0%|          | 0/7 [00:00<?, ?it/s][A
+[Train] Epoch:  14, Total:    256, Accuracy : 0.8672, Loss: 0.2918:  14%|█▍        | 1/7 [00:00<00:05,  1.16it/s][A
+[Train] Epoch:  14, Total:    512, Accuracy : 0.8691, Loss: 0.2790:  14%|█▍        | 1/7 [00:01<00:05,  1.16it/s][A
+[Train] Epoch:  14, Total:    512, Accuracy : 0.8691, Loss: 0.2790:  29%|██▊       | 2/7 [00:01<00:04,  1.16it/s][A
+[Train] Epoch:  14, Total:    768, Accuracy : 0.8958, Loss: 0.1726:  29%|██▊       | 2/7 [00:02<00:04,  1.16it/s][A
+[Train] Epoch:  14, Total:    768, Accuracy : 0.8958, Loss: 0.1726:  43%|████▎     | 3/7 [00:02<00:03,  1.16it/s][A
+[Train] Epoch:  14, Total:   1024, Accuracy : 0.9023, Loss: 0.2298:  43%|████▎     | 3/7 [00:03<00:03,  1.16it/s][A
+[Train] Epoch:  14, Total:   1024, Accuracy : 0.9023, Loss: 0.2298:  57%|█████▋    | 4/7 [00:03<00:02,  1.15it/s][A
+[Train] Epoch:  14, Total:   1280, Accuracy : 0.8992, Loss: 0.2923:  57%|█████▋    | 4/7 [00:04<00:02,  1.15it/s][A
+[Train] Epoch:  14, Total:   1280, Accuracy : 0.8992, Loss: 0.2923:  71%|███████▏  | 5/7 [00:04<00:01,  1.14it/s][A
+[Train] Epoch:  14, Total:   1536, Accuracy : 0.8978, Loss: 0.2604:  71%|███████▏  | 5/7 [00:05<00:01,  1.14it/s][A
+[Train] Epoch:  14, Total:   1536, Accuracy : 0.8978, Loss: 0.2604:  86%|████████▌ | 6/7 [00:05<00:00,  1.14it/s][A
+[Train] Epoch:  14, Total:   1710, Accuracy : 0.9012, Loss: 0.1979:  86%|████████▌ | 6/7 [00:05<00:00,  1.14it/s][A
+[Train] Epoch:  14, Total:   1710, Accuracy : 0.9012, Loss: 0.1979: 100%|██████████| 7/7 [00:05<00:00,  1.24it/s][A[Train] Epoch:  14, Total:   1710, Accuracy : 0.9012, Loss: 0.1979: 100%|██████████| 7/7 [00:05<00:00,  1.19it/s]
+
+  0%|          | 0/5 [00:00<?, ?it/s][A
+[Eval] Epoch:  14, Total:    256, Accuracy : 0.7422, Loss: 0.9427:   0%|          | 0/5 [00:00<?, ?it/s][A
+[Eval] Epoch:  14, Total:    256, Accuracy : 0.7422, Loss: 0.9427:  20%|██        | 1/5 [00:00<00:01,  2.99it/s][A
+[Eval] Epoch:  14, Total:    512, Accuracy : 0.7812, Loss: 0.6432:  20%|██        | 1/5 [00:00<00:01,  2.99it/s][A
+[Eval] Epoch:  14, Total:    512, Accuracy : 0.7812, Loss: 0.6432:  40%|████      | 2/5 [00:00<00:00,  3.15it/s][A
+[Eval] Epoch:  14, Total:    768, Accuracy : 0.7578, Loss: 1.0325:  40%|████      | 2/5 [00:00<00:00,  3.15it/s][A
+[Eval] Epoch:  14, Total:    768, Accuracy : 0.7578, Loss: 1.0325:  60%|██████    | 3/5 [00:00<00:00,  3.19it/s][A
+[Eval] Epoch:  14, Total:   1024, Accuracy : 0.7773, Loss: 0.5269:  60%|██████    | 3/5 [00:01<00:00,  3.19it/s][A
+[Eval] Epoch:  14, Total:   1024, Accuracy : 0.7773, Loss: 0.5269:  80%|████████  | 4/5 [00:01<00:00,  3.23it/s][A
+[Eval] Epoch:  14, Total:   1043, Accuracy : 0.7776, Loss: 0.8520:  80%|████████  | 4/5 [00:01<00:00,  3.23it/s][A[Eval] Epoch:  14, Total:   1043, Accuracy : 0.7776, Loss: 0.8520: 100%|██████████| 5/5 [00:01<00:00,  3.91it/s]
+ 75%|███████▌  | 15/20 [01:50<00:35,  7.18s/it]
+  0%|          | 0/7 [00:00<?, ?it/s][A
+[Train] Epoch:  15, Total:    256, Accuracy : 0.9258, Loss: 0.1938:   0%|          | 0/7 [00:00<?, ?it/s][A
+[Train] Epoch:  15, Total:    256, Accuracy : 0.9258, Loss: 0.1938:  14%|█▍        | 1/7 [00:00<00:05,  1.18it/s][A
+[Train] Epoch:  15, Total:    512, Accuracy : 0.9238, Loss: 0.1708:  14%|█▍        | 1/7 [00:01<00:05,  1.18it/s][A
+[Train] Epoch:  15, Total:    512, Accuracy : 0.9238, Loss: 0.1708:  29%|██▊       | 2/7 [00:01<00:04,  1.18it/s][A
+[Train] Epoch:  15, Total:    768, Accuracy : 0.9310, Loss: 0.1632:  29%|██▊       | 2/7 [00:02<00:04,  1.18it/s][A
+[Train] Epoch:  15, Total:    768, Accuracy : 0.9310, Loss: 0.1632:  43%|████▎     | 3/7 [00:02<00:03,  1.19it/s][A
+[Train] Epoch:  15, Total:   1024, Accuracy : 0.9258, Loss: 0.2325:  43%|████▎     | 3/7 [00:03<00:03,  1.19it/s][A
+[Train] Epoch:  15, Total:   1024, Accuracy : 0.9258, Loss: 0.2325:  57%|█████▋    | 4/7 [00:03<00:02,  1.20it/s][A
+[Train] Epoch:  15, Total:   1280, Accuracy : 0.9234, Loss: 0.2150:  57%|█████▋    | 4/7 [00:04<00:02,  1.20it/s][A
+[Train] Epoch:  15, Total:   1280, Accuracy : 0.9234, Loss: 0.2150:  71%|███████▏  | 5/7 [00:04<00:01,  1.19it/s][A
+[Train] Epoch:  15, Total:   1536, Accuracy : 0.9199, Loss: 0.2536:  71%|███████▏  | 5/7 [00:05<00:01,  1.19it/s][A
+[Train] Epoch:  15, Total:   1536, Accuracy : 0.9199, Loss: 0.2536:  86%|████████▌ | 6/7 [00:05<00:00,  1.16it/s][A
+[Train] Epoch:  15, Total:   1710, Accuracy : 0.9175, Loss: 0.2456:  86%|████████▌ | 6/7 [00:05<00:00,  1.16it/s][A
+[Train] Epoch:  15, Total:   1710, Accuracy : 0.9175, Loss: 0.2456: 100%|██████████| 7/7 [00:05<00:00,  1.27it/s][A[Train] Epoch:  15, Total:   1710, Accuracy : 0.9175, Loss: 0.2456: 100%|██████████| 7/7 [00:05<00:00,  1.22it/s]
+
+  0%|          | 0/5 [00:00<?, ?it/s][A
+[Eval] Epoch:  15, Total:    256, Accuracy : 0.7734, Loss: 0.7523:   0%|          | 0/5 [00:00<?, ?it/s][A
+[Eval] Epoch:  15, Total:    256, Accuracy : 0.7734, Loss: 0.7523:  20%|██        | 1/5 [00:00<00:01,  2.99it/s][A
+[Eval] Epoch:  15, Total:    512, Accuracy : 0.8047, Loss: 0.4924:  20%|██        | 1/5 [00:00<00:01,  2.99it/s][A
+[Eval] Epoch:  15, Total:    512, Accuracy : 0.8047, Loss: 0.4924:  40%|████      | 2/5 [00:00<00:00,  3.16it/s][A
+[Eval] Epoch:  15, Total:    768, Accuracy : 0.7839, Loss: 0.8242:  40%|████      | 2/5 [00:00<00:00,  3.16it/s][A
+[Eval] Epoch:  15, Total:    768, Accuracy : 0.7839, Loss: 0.8242:  60%|██████    | 3/5 [00:00<00:00,  3.21it/s][A
+[Eval] Epoch:  15, Total:   1024, Accuracy : 0.8057, Loss: 0.3994:  60%|██████    | 3/5 [00:01<00:00,  3.21it/s][A
+[Eval] Epoch:  15, Total:   1024, Accuracy : 0.8057, Loss: 0.3994:  80%|████████  | 4/5 [00:01<00:00,  3.24it/s][A
+[Eval] Epoch:  15, Total:   1043, Accuracy : 0.8025, Loss: 0.8306:  80%|████████  | 4/5 [00:01<00:00,  3.24it/s][A[Eval] Epoch:  15, Total:   1043, Accuracy : 0.8025, Loss: 0.8306: 100%|██████████| 5/5 [00:01<00:00,  3.92it/s]
+ 80%|████████  | 16/20 [01:57<00:28,  7.13s/it]
+  0%|          | 0/7 [00:00<?, ?it/s][A
+[Train] Epoch:  16, Total:    256, Accuracy : 0.9180, Loss: 0.2132:   0%|          | 0/7 [00:00<?, ?it/s][A
+[Train] Epoch:  16, Total:    256, Accuracy : 0.9180, Loss: 0.2132:  14%|█▍        | 1/7 [00:00<00:05,  1.18it/s][A
+[Train] Epoch:  16, Total:    512, Accuracy : 0.9414, Loss: 0.1298:  14%|█▍        | 1/7 [00:01<00:05,  1.18it/s][A
+[Train] Epoch:  16, Total:    512, Accuracy : 0.9414, Loss: 0.1298:  29%|██▊       | 2/7 [00:01<00:04,  1.16it/s][A
+[Train] Epoch:  16, Total:    768, Accuracy : 0.9401, Loss: 0.1818:  29%|██▊       | 2/7 [00:02<00:04,  1.16it/s][A
+[Train] Epoch:  16, Total:    768, Accuracy : 0.9401, Loss: 0.1818:  43%|████▎     | 3/7 [00:02<00:03,  1.14it/s][A
+[Train] Epoch:  16, Total:   1024, Accuracy : 0.9404, Loss: 0.1628:  43%|████▎     | 3/7 [00:03<00:03,  1.14it/s][A
+[Train] Epoch:  16, Total:   1024, Accuracy : 0.9404, Loss: 0.1628:  57%|█████▋    | 4/7 [00:03<00:02,  1.13it/s][A
+[Train] Epoch:  16, Total:   1280, Accuracy : 0.9445, Loss: 0.1303:  57%|█████▋    | 4/7 [00:04<00:02,  1.13it/s][A
+[Train] Epoch:  16, Total:   1280, Accuracy : 0.9445, Loss: 0.1303:  71%|███████▏  | 5/7 [00:04<00:01,  1.13it/s][A
+[Train] Epoch:  16, Total:   1536, Accuracy : 0.9460, Loss: 0.1653:  71%|███████▏  | 5/7 [00:05<00:01,  1.13it/s][A
+[Train] Epoch:  16, Total:   1536, Accuracy : 0.9460, Loss: 0.1653:  86%|████████▌ | 6/7 [00:05<00:00,  1.13it/s][A
+[Train] Epoch:  16, Total:   1710, Accuracy : 0.9497, Loss: 0.0861:  86%|████████▌ | 6/7 [00:05<00:00,  1.13it/s][A
+[Train] Epoch:  16, Total:   1710, Accuracy : 0.9497, Loss: 0.0861: 100%|██████████| 7/7 [00:05<00:00,  1.24it/s][A[Train] Epoch:  16, Total:   1710, Accuracy : 0.9497, Loss: 0.0861: 100%|██████████| 7/7 [00:05<00:00,  1.18it/s]
+
+  0%|          | 0/5 [00:00<?, ?it/s][A
+[Eval] Epoch:  16, Total:    256, Accuracy : 0.7539, Loss: 0.8614:   0%|          | 0/5 [00:00<?, ?it/s][A
+[Eval] Epoch:  16, Total:    256, Accuracy : 0.7539, Loss: 0.8614:  20%|██        | 1/5 [00:00<00:01,  3.05it/s][A
+[Eval] Epoch:  16, Total:    512, Accuracy : 0.7910, Loss: 0.5672:  20%|██        | 1/5 [00:00<00:01,  3.05it/s][A
+[Eval] Epoch:  16, Total:    512, Accuracy : 0.7910, Loss: 0.5672:  40%|████      | 2/5 [00:00<00:00,  3.19it/s][A
+[Eval] Epoch:  16, Total:    768, Accuracy : 0.7773, Loss: 0.9214:  40%|████      | 2/5 [00:00<00:00,  3.19it/s][A
+[Eval] Epoch:  16, Total:    768, Accuracy : 0.7773, Loss: 0.9214:  60%|██████    | 3/5 [00:00<00:00,  3.23it/s][A
+[Eval] Epoch:  16, Total:   1024, Accuracy : 0.7920, Loss: 0.4627:  60%|██████    | 3/5 [00:01<00:00,  3.23it/s][A
+[Eval] Epoch:  16, Total:   1024, Accuracy : 0.7920, Loss: 0.4627:  80%|████████  | 4/5 [00:01<00:00,  3.25it/s][A
+[Eval] Epoch:  16, Total:   1043, Accuracy : 0.7919, Loss: 0.8206:  80%|████████  | 4/5 [00:01<00:00,  3.25it/s][A[Eval] Epoch:  16, Total:   1043, Accuracy : 0.7919, Loss: 0.8206: 100%|██████████| 5/5 [00:01<00:00,  3.95it/s]
+ 85%|████████▌ | 17/20 [02:04<00:21,  7.15s/it]
+  0%|          | 0/7 [00:00<?, ?it/s][A
+[Train] Epoch:  17, Total:    256, Accuracy : 0.9844, Loss: 0.0802:   0%|          | 0/7 [00:00<?, ?it/s][A
+[Train] Epoch:  17, Total:    256, Accuracy : 0.9844, Loss: 0.0802:  14%|█▍        | 1/7 [00:00<00:05,  1.18it/s][A
+[Train] Epoch:  17, Total:    512, Accuracy : 0.9570, Loss: 0.1837:  14%|█▍        | 1/7 [00:01<00:05,  1.18it/s][A
+[Train] Epoch:  17, Total:    512, Accuracy : 0.9570, Loss: 0.1837:  29%|██▊       | 2/7 [00:01<00:04,  1.16it/s][A
+[Train] Epoch:  17, Total:    768, Accuracy : 0.9505, Loss: 0.1755:  29%|██▊       | 2/7 [00:02<00:04,  1.16it/s][A
+[Train] Epoch:  17, Total:    768, Accuracy : 0.9505, Loss: 0.1755:  43%|████▎     | 3/7 [00:02<00:03,  1.14it/s][A
+[Train] Epoch:  17, Total:   1024, Accuracy : 0.9492, Loss: 0.1605:  43%|████▎     | 3/7 [00:03<00:03,  1.14it/s][A
+[Train] Epoch:  17, Total:   1024, Accuracy : 0.9492, Loss: 0.1605:  57%|█████▋    | 4/7 [00:03<00:02,  1.14it/s][A
+[Train] Epoch:  17, Total:   1280, Accuracy : 0.9516, Loss: 0.1292:  57%|█████▋    | 4/7 [00:04<00:02,  1.14it/s][A
+[Train] Epoch:  17, Total:   1280, Accuracy : 0.9516, Loss: 0.1292:  71%|███████▏  | 5/7 [00:04<00:01,  1.13it/s][A
+[Train] Epoch:  17, Total:   1536, Accuracy : 0.9525, Loss: 0.1393:  71%|███████▏  | 5/7 [00:05<00:01,  1.13it/s][A
+[Train] Epoch:  17, Total:   1536, Accuracy : 0.9525, Loss: 0.1393:  86%|████████▌ | 6/7 [00:05<00:00,  1.13it/s][A
+[Train] Epoch:  17, Total:   1710, Accuracy : 0.9538, Loss: 0.1246:  86%|████████▌ | 6/7 [00:05<00:00,  1.13it/s][A
+[Train] Epoch:  17, Total:   1710, Accuracy : 0.9538, Loss: 0.1246: 100%|██████████| 7/7 [00:05<00:00,  1.24it/s][A[Train] Epoch:  17, Total:   1710, Accuracy : 0.9538, Loss: 0.1246: 100%|██████████| 7/7 [00:05<00:00,  1.18it/s]
+
+  0%|          | 0/5 [00:00<?, ?it/s][A
+[Eval] Epoch:  17, Total:    256, Accuracy : 0.7539, Loss: 0.9247:   0%|          | 0/5 [00:00<?, ?it/s][A
+[Eval] Epoch:  17, Total:    256, Accuracy : 0.7539, Loss: 0.9247:  20%|██        | 1/5 [00:00<00:01,  2.99it/s][A
+[Eval] Epoch:  17, Total:    512, Accuracy : 0.7910, Loss: 0.6112:  20%|██        | 1/5 [00:00<00:01,  2.99it/s][A
+[Eval] Epoch:  17, Total:    512, Accuracy : 0.7910, Loss: 0.6112:  40%|████      | 2/5 [00:00<00:00,  3.16it/s][A
+[Eval] Epoch:  17, Total:    768, Accuracy : 0.7721, Loss: 0.9979:  40%|████      | 2/5 [00:00<00:00,  3.16it/s][A
+[Eval] Epoch:  17, Total:    768, Accuracy : 0.7721, Loss: 0.9979:  60%|██████    | 3/5 [00:00<00:00,  3.21it/s][A
+[Eval] Epoch:  17, Total:   1024, Accuracy : 0.7891, Loss: 0.5008:  60%|██████    | 3/5 [00:01<00:00,  3.21it/s][A
+[Eval] Epoch:  17, Total:   1024, Accuracy : 0.7891, Loss: 0.5008:  80%|████████  | 4/5 [00:01<00:00,  3.23it/s][A
+[Eval] Epoch:  17, Total:   1043, Accuracy : 0.7891, Loss: 0.9031:  80%|████████  | 4/5 [00:01<00:00,  3.23it/s][A[Eval] Epoch:  17, Total:   1043, Accuracy : 0.7891, Loss: 0.9031: 100%|██████████| 5/5 [00:01<00:00,  3.92it/s]
+ 90%|█████████ | 18/20 [02:11<00:14,  7.17s/it]
+  0%|          | 0/7 [00:00<?, ?it/s][A
+[Train] Epoch:  18, Total:    256, Accuracy : 0.9570, Loss: 0.1243:   0%|          | 0/7 [00:00<?, ?it/s][A
+[Train] Epoch:  18, Total:    256, Accuracy : 0.9570, Loss: 0.1243:  14%|█▍        | 1/7 [00:00<00:05,  1.16it/s][A
+[Train] Epoch:  18, Total:    512, Accuracy : 0.9590, Loss: 0.1128:  14%|█▍        | 1/7 [00:01<00:05,  1.16it/s][A
+[Train] Epoch:  18, Total:    512, Accuracy : 0.9590, Loss: 0.1128:  29%|██▊       | 2/7 [00:01<00:04,  1.15it/s][A
+[Train] Epoch:  18, Total:    768, Accuracy : 0.9648, Loss: 0.1099:  29%|██▊       | 2/7 [00:02<00:04,  1.15it/s][A
+[Train] Epoch:  18, Total:    768, Accuracy : 0.9648, Loss: 0.1099:  43%|████▎     | 3/7 [00:02<00:03,  1.14it/s][A
+[Train] Epoch:  18, Total:   1024, Accuracy : 0.9629, Loss: 0.1135:  43%|████▎     | 3/7 [00:03<00:03,  1.14it/s][A
+[Train] Epoch:  18, Total:   1024, Accuracy : 0.9629, Loss: 0.1135:  57%|█████▋    | 4/7 [00:03<00:02,  1.15it/s][A
+[Train] Epoch:  18, Total:   1280, Accuracy : 0.9602, Loss: 0.1721:  57%|█████▋    | 4/7 [00:04<00:02,  1.15it/s][A
+[Train] Epoch:  18, Total:   1280, Accuracy : 0.9602, Loss: 0.1721:  71%|███████▏  | 5/7 [00:04<00:01,  1.16it/s][A
+[Train] Epoch:  18, Total:   1536, Accuracy : 0.9635, Loss: 0.0778:  71%|███████▏  | 5/7 [00:05<00:01,  1.16it/s][A
+[Train] Epoch:  18, Total:   1536, Accuracy : 0.9635, Loss: 0.0778:  86%|████████▌ | 6/7 [00:05<00:00,  1.17it/s][A
+[Train] Epoch:  18, Total:   1710, Accuracy : 0.9614, Loss: 0.1470:  86%|████████▌ | 6/7 [00:05<00:00,  1.17it/s][A
+[Train] Epoch:  18, Total:   1710, Accuracy : 0.9614, Loss: 0.1470: 100%|██████████| 7/7 [00:05<00:00,  1.28it/s][A[Train] Epoch:  18, Total:   1710, Accuracy : 0.9614, Loss: 0.1470: 100%|██████████| 7/7 [00:05<00:00,  1.21it/s]
+
+  0%|          | 0/5 [00:00<?, ?it/s][A
+[Eval] Epoch:  18, Total:    256, Accuracy : 0.7539, Loss: 0.9481:   0%|          | 0/5 [00:00<?, ?it/s][A
+[Eval] Epoch:  18, Total:    256, Accuracy : 0.7539, Loss: 0.9481:  20%|██        | 1/5 [00:00<00:01,  3.04it/s][A
+[Eval] Epoch:  18, Total:    512, Accuracy : 0.7891, Loss: 0.6238:  20%|██        | 1/5 [00:00<00:01,  3.04it/s][A
+[Eval] Epoch:  18, Total:    512, Accuracy : 0.7891, Loss: 0.6238:  40%|████      | 2/5 [00:00<00:00,  3.19it/s][A
+[Eval] Epoch:  18, Total:    768, Accuracy : 0.7708, Loss: 1.0263:  40%|████      | 2/5 [00:01<00:00,  3.19it/s][A
+[Eval] Epoch:  18, Total:    768, Accuracy : 0.7708, Loss: 1.0263:  60%|██████    | 3/5 [00:01<00:00,  2.86it/s][A
+[Eval] Epoch:  18, Total:   1024, Accuracy : 0.7881, Loss: 0.5147:  60%|██████    | 3/5 [00:01<00:00,  2.86it/s][A
+[Eval] Epoch:  18, Total:   1024, Accuracy : 0.7881, Loss: 0.5147:  80%|████████  | 4/5 [00:01<00:00,  3.01it/s][A
+[Eval] Epoch:  18, Total:   1043, Accuracy : 0.7881, Loss: 0.9371:  80%|████████  | 4/5 [00:01<00:00,  3.01it/s][A[Eval] Epoch:  18, Total:   1043, Accuracy : 0.7881, Loss: 0.9371: 100%|██████████| 5/5 [00:01<00:00,  3.69it/s]
+ 95%|█████████▌| 19/20 [02:18<00:07,  7.17s/it]
+  0%|          | 0/7 [00:00<?, ?it/s][A
+[Train] Epoch:  19, Total:    256, Accuracy : 0.9531, Loss: 0.1271:   0%|          | 0/7 [00:00<?, ?it/s][A
+[Train] Epoch:  19, Total:    256, Accuracy : 0.9531, Loss: 0.1271:  14%|█▍        | 1/7 [00:00<00:05,  1.18it/s][A
+[Train] Epoch:  19, Total:    512, Accuracy : 0.9668, Loss: 0.0838:  14%|█▍        | 1/7 [00:01<00:05,  1.18it/s][A
+[Train] Epoch:  19, Total:    512, Accuracy : 0.9668, Loss: 0.0838:  29%|██▊       | 2/7 [00:01<00:04,  1.16it/s][A
+[Train] Epoch:  19, Total:    768, Accuracy : 0.9648, Loss: 0.1232:  29%|██▊       | 2/7 [00:02<00:04,  1.16it/s][A
+[Train] Epoch:  19, Total:    768, Accuracy : 0.9648, Loss: 0.1232:  43%|████▎     | 3/7 [00:02<00:03,  1.15it/s][A
+[Train] Epoch:  19, Total:   1024, Accuracy : 0.9678, Loss: 0.0761:  43%|████▎     | 3/7 [00:03<00:03,  1.15it/s][A
+[Train] Epoch:  19, Total:   1024, Accuracy : 0.9678, Loss: 0.0761:  57%|█████▋    | 4/7 [00:03<00:02,  1.14it/s][A
+[Train] Epoch:  19, Total:   1280, Accuracy : 0.9672, Loss: 0.1013:  57%|█████▋    | 4/7 [00:04<00:02,  1.14it/s][A
+[Train] Epoch:  19, Total:   1280, Accuracy : 0.9672, Loss: 0.1013:  71%|███████▏  | 5/7 [00:04<00:01,  1.14it/s][A
+[Train] Epoch:  19, Total:   1536, Accuracy : 0.9642, Loss: 0.1068:  71%|███████▏  | 5/7 [00:05<00:01,  1.14it/s][A
+[Train] Epoch:  19, Total:   1536, Accuracy : 0.9642, Loss: 0.1068:  86%|████████▌ | 6/7 [00:05<00:00,  1.13it/s][A
+[Train] Epoch:  19, Total:   1710, Accuracy : 0.9637, Loss: 0.1356:  86%|████████▌ | 6/7 [00:05<00:00,  1.13it/s][A
+[Train] Epoch:  19, Total:   1710, Accuracy : 0.9637, Loss: 0.1356: 100%|██████████| 7/7 [00:05<00:00,  1.24it/s][A[Train] Epoch:  19, Total:   1710, Accuracy : 0.9637, Loss: 0.1356: 100%|██████████| 7/7 [00:05<00:00,  1.18it/s]
+
+  0%|          | 0/5 [00:00<?, ?it/s][A
+[Eval] Epoch:  19, Total:    256, Accuracy : 0.7578, Loss: 0.9462:   0%|          | 0/5 [00:00<?, ?it/s][A
+[Eval] Epoch:  19, Total:    256, Accuracy : 0.7578, Loss: 0.9462:  20%|██        | 1/5 [00:00<00:01,  2.99it/s][A
+[Eval] Epoch:  19, Total:    512, Accuracy : 0.7910, Loss: 0.6240:  20%|██        | 1/5 [00:00<00:01,  2.99it/s][A
+[Eval] Epoch:  19, Total:    512, Accuracy : 0.7910, Loss: 0.6240:  40%|████      | 2/5 [00:00<00:00,  3.17it/s][A
+[Eval] Epoch:  19, Total:    768, Accuracy : 0.7721, Loss: 1.0264:  40%|████      | 2/5 [00:00<00:00,  3.17it/s][A
+[Eval] Epoch:  19, Total:    768, Accuracy : 0.7721, Loss: 1.0264:  60%|██████    | 3/5 [00:00<00:00,  3.20it/s][A
+[Eval] Epoch:  19, Total:   1024, Accuracy : 0.7891, Loss: 0.5139:  60%|██████    | 3/5 [00:01<00:00,  3.20it/s][A
+[Eval] Epoch:  19, Total:   1024, Accuracy : 0.7891, Loss: 0.5139:  80%|████████  | 4/5 [00:01<00:00,  3.22it/s][A
+[Eval] Epoch:  19, Total:   1043, Accuracy : 0.7891, Loss: 0.9416:  80%|████████  | 4/5 [00:01<00:00,  3.22it/s][A[Eval] Epoch:  19, Total:   1043, Accuracy : 0.7891, Loss: 0.9416: 100%|██████████| 5/5 [00:01<00:00,  3.91it/s]
+100%|██████████| 20/20 [02:25<00:00,  7.18s/it]100%|██████████| 20/20 [02:25<00:00,  7.29s/it]
+  0%|          | 0/5 [00:00<?, ?it/s][Eval] Epoch:  11, Total:    256, Accuracy : 0.7578, Loss: 0.9462:   0%|          | 0/5 [00:00<?, ?it/s][Eval] Epoch:  11, Total:    256, Accuracy : 0.7578, Loss: 0.9462:  20%|██        | 1/5 [00:00<00:01,  3.30it/s][Eval] Epoch:  11, Total:    512, Accuracy : 0.7910, Loss: 0.6240:  20%|██        | 1/5 [00:00<00:01,  3.30it/s][Eval] Epoch:  11, Total:    512, Accuracy : 0.7910, Loss: 0.6240:  40%|████      | 2/5 [00:00<00:00,  3.29it/s][Eval] Epoch:  11, Total:    768, Accuracy : 0.7721, Loss: 1.0264:  40%|████      | 2/5 [00:00<00:00,  3.29it/s][Eval] Epoch:  11, Total:    768, Accuracy : 0.7721, Loss: 1.0264:  60%|██████    | 3/5 [00:00<00:00,  3.27it/s][Eval] Epoch:  11, Total:   1024, Accuracy : 0.7891, Loss: 0.5139:  60%|██████    | 3/5 [00:01<00:00,  3.27it/s][Eval] Epoch:  11, Total:   1024, Accuracy : 0.7891, Loss: 0.5139:  80%|████████  | 4/5 [00:01<00:00,  3.26it/s][Eval] Epoch:  11, Total:   1043, Accuracy : 0.7891, Loss: 0.9416:  80%|████████  | 4/5 [00:01<00:00,  3.26it/s][Eval] Epoch:  11, Total:   1043, Accuracy : 0.7891, Loss: 0.9416: 100%|██████████| 5/5 [00:01<00:00,  4.00it/s]
+Fatal error condition occurred in /opt/vcpkg/buildtrees/aws-c-io/src/9e6648842a-364b708815.clean/source/event_loop.c:72: aws_thread_launch(&cleanup_thread, s_event_loop_destroy_async_thread_fn, el_group, &thread_options) == AWS_OP_SUCCESS
+Exiting Application
+################################################################################
+Stack trace:
+################################################################################
+/home/draj5/anaconda3/envs/temp1/lib/python3.9/site-packages/pyarrow/libarrow.so.900(+0x200af06) [0x2acd47e29f06]
+/home/draj5/anaconda3/envs/temp1/lib/python3.9/site-packages/pyarrow/libarrow.so.900(+0x20028e5) [0x2acd47e218e5]
+/home/draj5/anaconda3/envs/temp1/lib/python3.9/site-packages/pyarrow/libarrow.so.900(+0x1f27e09) [0x2acd47d46e09]
+/home/draj5/anaconda3/envs/temp1/lib/python3.9/site-packages/pyarrow/libarrow.so.900(+0x200ba3d) [0x2acd47e2aa3d]
+/home/draj5/anaconda3/envs/temp1/lib/python3.9/site-packages/pyarrow/libarrow.so.900(+0x1f25948) [0x2acd47d44948]
+/home/draj5/anaconda3/envs/temp1/lib/python3.9/site-packages/pyarrow/libarrow.so.900(+0x200ba3d) [0x2acd47e2aa3d]
+/home/draj5/anaconda3/envs/temp1/lib/python3.9/site-packages/pyarrow/libarrow.so.900(+0x1ee0b46) [0x2acd47cffb46]
+/home/draj5/anaconda3/envs/temp1/lib/python3.9/site-packages/pyarrow/libarrow.so.900(+0x194546a) [0x2acd4776446a]
+/lib64/libc.so.6(+0x39ce9) [0x2accdfab9ce9]
+/lib64/libc.so.6(+0x39d37) [0x2accdfab9d37]
+/lib64/libc.so.6(__libc_start_main+0xfc) [0x2accdfaa255c]
+python(+0x203667) [0x55a7d0469667]
+/var/spool/slurmd/job18129006/slurm_script: line 23: 79709 Aborted                 python $1 $2
